@@ -1,0 +1,2533 @@
+/*<meta />*/
+
+/* MadCap Styles */
+
+#contentBody.nav-closed
+{
+	width: 100%;
+}
+
+button,
+.button
+{
+	border-color: none;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea
+{
+	margin: 0;
+}
+
+.contain-to-grid
+{
+	background: none;
+}
+
+.complementary
+{
+	padding: 0;
+}
+
+.expand-for-small-10
+{
+	width: 83%;
+}
+
+.row
+{
+	max-width: 100%;
+}
+
+.menu-icon
+{
+	margin-top: -10px;
+	width: 60px;
+}
+
+.menu-icon button
+{
+	text-indent: -48px;
+	width: 60px;
+	height: 70px;
+	line-height: 33px;
+	padding: 0;
+	color: white;
+	border: none;
+	background: none;
+}
+
+.menu-icon button span
+{
+	position: absolute;
+	display: block;
+	width: 60px;
+	height: 28px;
+	top: 25px;
+	background: url('Images/ResponsiveMenuButton.png') no-repeat center center;
+}
+
+.hide-extras [role="main"]
+{
+	width: 83%;
+}
+
+#search-sidebar
+{
+	display: none;
+}
+
+._Skins_HTML_Tripane .central-dropdown
+{
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-top: 12px;
+}
+
+._Skins_HTML_Tripane .central-account-wrapper
+{
+	float: right;
+	display: block;
+}
+
+._Skins_HTML_Tripane .central-dropdown .central-account-drop
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+._Skins_HTML_Tripane .central-dropdown:hover
+{
+	
+}
+
+._Skins_HTML_Tripane .central-account-text
+{
+	color: #dadada;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+._Skins_HTML_Tripane .central-account-text:after
+{
+	border-top-color: #dadada;
+}
+
+._Skins_HTML_Tripane .central-account-text:hover
+{
+	
+}
+
+._Skins_HTML_Tripane .central-account-image
+{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: transparent url('Images/icon-user-light-gray.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/icon-user-light-gray.png') no-repeat center center;
+}
+
+._Skins_HTML_Tripane .central-dropdown-content
+{
+	line-height: 35px;
+	text-align: center;
+	width: 100px;
+	height: auto;
+	left: auto;
+	right: 0px;
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane .central-dropdown:after
+{
+	border-bottom-color: #ffffff;
+}
+
+._Skins_HTML_Tripane .central-dropdown-content a
+{
+	color: #3d3d3d;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+._Skins_HTML_Tripane .central-dropdown-content a:hover
+{
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane .central-separator
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 1px;
+	color: #D5D8DA;
+	background-color: #D5D8DA;
+}
+
+._Skins_HTML_Tripane .comments .timestamp
+{
+	color: #888888;
+	font-family: Georgia;
+	font-size: 11px;
+	font-style: italic;
+}
+
+._Skins_HTML_Tripane .login-dialog-content
+{
+	border-top: solid 1px #767676;
+	background-color: #5a5a5a;
+}
+
+._Skins_HTML_Tripane .login-dialog button
+{
+	color: #ffffff;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	border-left: solid 1px #2b2b2b;
+	border-right: solid 1px #2b2b2b;
+	border-top: solid 1px #2b2b2b;
+	border-bottom: solid 1px #2b2b2b;
+	background: #595959;
+	background: -moz-linear-gradient(top, #595959 0%, #4a4a4a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#595959), color-stop(100%,#4a4a4a));
+	background: -webkit-linear-gradient(top, #595959 0%, #4a4a4a 100%);
+	background: -o-linear-gradient(top, #595959 0%,#4a4a4a 100%);
+	background: -ms-linear-gradient(top, #595959 0%,#4a4a4a 100%);
+	background: linear-gradient(top, #595959 0%,#4a4a4a 100%);
+	-pie-background: linear-gradient(#595959, #4a4a4a);
+	background-position: center center;
+}
+
+._Skins_HTML_Tripane .login-dialog-header
+{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: solid 1px #2b2b2b;
+	background: #5a5a5a url('Images/login-dialog-icon.png') no-repeat 18px center;
+	background: url('Images/login-dialog-icon.png') no-repeat 18px center, -moz-linear-gradient(top, #5a5a5a 0%, #4a4a4a 100%);
+	background: url('Images/login-dialog-icon.png') no-repeat 18px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5a5a5a), color-stop(100%,#4a4a4a));
+	background: url('Images/login-dialog-icon.png') no-repeat 18px center, -webkit-linear-gradient(top, #5a5a5a 0%, #4a4a4a 100%);
+	background: url('Images/login-dialog-icon.png') no-repeat 18px center, -o-linear-gradient(top, #5a5a5a 0%,#4a4a4a 100%);
+	background: url('Images/login-dialog-icon.png') no-repeat 18px center, -ms-linear-gradient(top, #5a5a5a 0%,#4a4a4a 100%);
+	background: url('Images/login-dialog-icon.png') no-repeat 18px center, linear-gradient(top, #5a5a5a 0%,#4a4a4a 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Images/login-dialog-icon.png') no-repeat 18px center, linear-gradient(#5a5a5a, #4a4a4a);
+}
+
+._Skins_HTML_Tripane .login-dialog-content .profile-item-wrapper .email-notifications-group
+{
+	background-color: #4a4a4a;
+}
+
+._Skins_HTML_Tripane .login-dialog-content input[type=text]
+{
+	
+}
+
+._Skins_HTML_Tripane .login-dialog-content .profile-item-wrapper
+{
+	color: #cecece;
+}
+
+._Skins_HTML_Tripane #glossary .GlossaryPageEntry .GlossaryPageDefinition
+{
+	color: #707070;
+}
+
+._Skins_HTML_Tripane #header
+{
+	display: block;
+	height: 80px;
+}
+
+._Skins_HTML_Tripane #body
+{
+	top: 80px;
+}
+
+._Skins_HTML_Tripane #contentBodyInner
+{
+	top: 40px;
+}
+
+._Skins_HTML_Tripane #header .logo
+{
+	display: block;
+	background: transparent url('Images/NCR-Logo.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/NCR-Logo.png') no-repeat center center;
+	width: 80px;
+	height: 78px;
+	margin-top: -39px;
+}
+
+._Skins_HTML_Tripane #responsiveHeader .logo
+{
+	display: block;
+	width: 80px;
+	background: transparent url('Images/NCR-Logo.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/NCR-Logo.png') no-repeat center center;
+}
+
+._Skins_HTML_Tripane #header .logo > img
+{
+	width: 80px;
+	height: 78px;
+}
+
+._Skins_HTML_Tripane #responsiveHeader .logo > img
+{
+	width: 80px;
+	height: 78px;
+}
+
+._Skins_HTML_Tripane body
+{
+	background-repeat: no-repeat;
+	color: #000000;
+	font-family: Raleway;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	background: none;
+}
+
+._Skins_HTML_Tripane #responsiveHeader
+{
+	background-repeat: no-repeat;
+	background: none;
+}
+
+._Skins_HTML_Tripane .MCWebHelpFramesetLink a
+{
+	color: #0000ee;
+}
+
+._Skins_HTML_Tripane .MCWebHelpFramesetLink .MCWebHelpFramesetLinkBottom a
+{
+	
+}
+
+._Skins_HTML_Tripane .MCWebHelpFramesetLink .MCWebHelpFramesetLinkTop a
+{
+	
+}
+
+._Skins_HTML_Tripane .tabs-panel-content
+{
+	padding-left: 7px;
+	padding-right: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border-left: none 0px transparent;
+	border-right: none 0px transparent;
+	border-top: none 0px transparent;
+	border-bottom: none 0px transparent;
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane #navigation[role="complementary"]
+{
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane #browseSequences.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane #community.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane #glossary.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane #index.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane #index .tree-node.tree-node-expanded > div
+{
+	background: transparent url('Images/index-expanded.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index-expanded.png') no-repeat 0 3px;
+	padding-left: 15px;
+}
+
+._Skins_HTML_Tripane .web #index .tree-node.tree-node-expanded > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index-expanded.png') no-repeat 0 3px;
+	background: url('Images/index-expanded.png') no-repeat 0 3px, #31A9E0;
+}
+
+._Skins_HTML_Tripane #index .tree-node.tree-node-expanded.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index-expanded.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/index-expanded.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane .web #index .tree-node.tree-node-expanded.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index-expanded.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/index-expanded.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane #index .tree-node.tree-node-collapsed > div
+{
+	background: transparent url('Images/index-collapsed.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index-collapsed.png') no-repeat 0 3px;
+	padding-left: 15px;
+}
+
+._Skins_HTML_Tripane .web #index .tree-node.tree-node-collapsed > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index-collapsed.png') no-repeat 0 3px;
+	background: url('Images/index-collapsed.png') no-repeat 0 3px, #31A9E0;
+}
+
+._Skins_HTML_Tripane #index .tree-node.tree-node-collapsed.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index-collapsed.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/index-collapsed.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane .web #index .tree-node.tree-node-collapsed.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index-collapsed.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/index-collapsed.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane #index .tree-node.tree-node-leaf > div
+{
+	background: transparent url('Images/index.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index.png') no-repeat 0 3px;
+	padding-left: 15px;
+}
+
+._Skins_HTML_Tripane .web #index .tree-node.tree-node-leaf > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index.png') no-repeat 0 3px;
+	background: url('Images/index.png') no-repeat 0 3px, #31A9E0;
+}
+
+._Skins_HTML_Tripane #index .tree-node.tree-node-leaf.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/index.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane .web #index .tree-node.tree-node-leaf.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/index.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/index.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane #search.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane #toc.tabs-panel-content
+{
+	padding-top: 7px;
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane .tree-node.tree-node-collapsed > div
+{
+	background: transparent url('Images/book.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/book.png') no-repeat 0 3px;
+	padding-left: 11px;
+}
+
+._Skins_HTML_Tripane .web .tree-node.tree-node-collapsed > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/book.png') no-repeat 0 3px;
+	color: #ffffff;
+	font-weight: bold;
+	background: url('Images/book.png') no-repeat 0 3px, #31A9E0;
+}
+
+._Skins_HTML_Tripane .tree-node.tree-node-collapsed.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/book.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/book.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane .web .tree-node.tree-node-collapsed.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/book.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/book.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane .tree-node.tree-node-expanded > div
+{
+	background: transparent url('Images/book-open.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/book-open.png') no-repeat 0 3px;
+	padding-left: 16px;
+}
+
+._Skins_HTML_Tripane .web .tree-node.tree-node-expanded > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/book-open.png') no-repeat 0 3px;
+	color: #ffffff;
+	font-weight: bold;
+	background: url('Images/book-open.png') no-repeat 0 3px, #31A9E0;
+}
+
+._Skins_HTML_Tripane .tree-node.tree-node-expanded.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/book-open.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/book-open.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane .web .tree-node.tree-node-expanded.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/book-open.png') no-repeat 0 3px;
+	color: #000000;
+	font-weight: bold;
+	background: url('Images/book-open.png') no-repeat 0 3px, #50b948;
+}
+
+._Skins_HTML_Tripane .tree-node.tree-node-leaf > div
+{
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+	background: none;
+}
+
+._Skins_HTML_Tripane .web .tree-node.tree-node-leaf > div:hover
+{
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #31A9E0;
+}
+
+._Skins_HTML_Tripane .tree-node.tree-node-leaf.tree-node-selected > div
+{
+	color: #000000;
+	font-weight: bold;
+	background-color: #50b948;
+}
+
+._Skins_HTML_Tripane .web .tree-node.tree-node-leaf.tree-node-selected > div:hover
+{
+	color: #000000;
+	font-weight: bold;
+	background-color: #50b948;
+}
+
+._Skins_HTML_Tripane .tree-node .new-indicator
+{
+	background: none;
+	background-repeat: no-repeat;
+}
+
+html.left-layout._Skins_HTML_Tripane #show-hide-navigation:after
+{
+	color: #808080;
+	border-right-color: #808080;
+}
+
+html.left-layout._Skins_HTML_Tripane .nav-closed #show-hide-navigation:after
+{
+	border-left-color: #808080;
+}
+
+._Skins_HTML_Tripane .tree-node div
+{
+	color: #696969;
+	line-height: 1.9em;
+	text-indent: 2px;
+}
+
+._Skins_HTML_Tripane .tree-node.tree-node-selected > div
+{
+	color: #000000;
+	font-weight: bold;
+	background-color: #50b948;
+}
+
+._Skins_HTML_Tripane .web .tree-node.tree-node-selected > div:hover
+{
+	color: #000000;
+	font-weight: bold;
+	background-color: #50b948;
+}
+
+._Skins_HTML_Tripane #index .tree-node.tree-node-selected > div
+{
+	color: #000000;
+	font-weight: bold;
+	background-color: #50b948;
+}
+
+._Skins_HTML_Tripane .web #index .tree-node.tree-node-selected > div:hover
+{
+	color: #000000;
+	font-weight: bold;
+	background-color: #50b948;
+}
+
+._Skins_HTML_Tripane .SearchFilterEntry.tree-node .SearchFilter.active
+{
+	background-color: #50b948;
+	color: #000000;
+	font-weight: bold;
+}
+
+._Skins_HTML_Tripane .tabs-panel-search
+{
+	background-repeat: no-repeat;
+	color: #808080;
+	font-family: 'Raleway Light';
+	font-size: 14px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+._Skins_HTML_Tripane .tabs-nav li
+{
+	font-size: 0px;
+	width: 100px;
+	height: 28px;
+	navigation-tab-layout: TextOnly;
+	text-align: center;
+	line-height: 28px;
+}
+
+._Skins_HTML_Tripane .tabs-panel
+{
+	top: 28px;
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane .tabs-nav li#BrowseSequencesTab
+{
+	
+}
+
+._Skins_HTML_Tripane .tabs-nav li#CommunityTab
+{
+	
+}
+
+._Skins_HTML_Tripane .tabs-nav li#GlossaryTab
+{
+	
+}
+
+._Skins_HTML_Tripane .tabs-nav li#IndexTab
+{
+	
+}
+
+._Skins_HTML_Tripane .tabs-nav li#SearchTab
+{
+	
+}
+
+._Skins_HTML_Tripane .tabs-nav li#TocTab
+{
+	
+}
+
+._Skins_HTML_Tripane .tabs-nav li.tabs-nav-active
+{
+	color: #696969;
+	border-right: none 0px transparent;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	background: transparent;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+._Skins_HTML_Tripane #show-hide-navigation
+{
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane .tabs-nav li#BrowseSequencesTab.tabs-nav-active
+{
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	background: transparent;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+._Skins_HTML_Tripane .tab-icon #BrowseSequencesTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/browseActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/browseActive.png');
+}
+
+._Skins_HTML_Tripane .tabs-nav li#CommunityTab.tabs-nav-active
+{
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	background: transparent;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+._Skins_HTML_Tripane .tab-icon #CommunityTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/communityActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/communityActive.png');
+}
+
+._Skins_HTML_Tripane .tabs-nav li#GlossaryTab.tabs-nav-active
+{
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	background: transparent;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+._Skins_HTML_Tripane .tab-icon #GlossaryTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/glossaryActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/glossaryActive.png');
+}
+
+._Skins_HTML_Tripane .tabs-nav li#IndexTab.tabs-nav-active
+{
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	background: transparent;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+._Skins_HTML_Tripane .tab-icon #IndexTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/indexActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/indexActive.png');
+}
+
+._Skins_HTML_Tripane .tabs-nav li#SearchTab.tabs-nav-active
+{
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	background: transparent;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+._Skins_HTML_Tripane .tab-icon #SearchTab.tabs-nav-active .tabs-nav-icon
+{
+	
+}
+
+._Skins_HTML_Tripane .tabs-nav li#TocTab.tabs-nav-active
+{
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	background: transparent;
+	background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	background: linear-gradient(top, #ffffff 0%,#ffffff 100%);
+	-pie-background: linear-gradient(#ffffff, #ffffff);
+}
+
+._Skins_HTML_Tripane .tab-icon #TocTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/tocActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/tocActive.png');
+}
+
+._Skins_HTML_Tripane .tabs-nav li.tabs-nav-inactive
+{
+	color: #636363;
+	border-right: solid 1px #cccccc;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+	background-clip: padding-box;
+}
+
+._Skins_HTML_Tripane .tabs-nav li#BrowseSequencesTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_HTML_Tripane .tab-icon #BrowseSequencesTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/browseInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/browseInactiveLight.png');
+}
+
+._Skins_HTML_Tripane .tabs-nav li#CommunityTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_HTML_Tripane .tab-icon #CommunityTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/communityInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/communityInactiveLight.png');
+}
+
+._Skins_HTML_Tripane .tabs-nav li#GlossaryTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_HTML_Tripane .tab-icon #GlossaryTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/glossaryInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/glossaryInactiveLight.png');
+}
+
+._Skins_HTML_Tripane .tabs-nav li#IndexTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_HTML_Tripane .tab-icon #IndexTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/indexInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/indexInactiveLight.png');
+}
+
+._Skins_HTML_Tripane .tabs-nav li#SearchTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_HTML_Tripane .tab-icon #SearchTab.tabs-nav-inactive .tabs-nav-icon
+{
+	
+}
+
+._Skins_HTML_Tripane .tabs-nav li#TocTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_HTML_Tripane .tab-icon #TocTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/tocInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/tocInactiveLight.png');
+}
+
+._Skins_HTML_Tripane .search-bar
+{
+	display: block;
+	border-left: solid 1px #a9a9a9;
+	border-right: solid 1px #a9a9a9;
+	border-top: solid 1px #a9a9a9;
+	border-bottom: solid 1px #a9a9a9;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	-webkit-box-shadow: 0px 1px 0px transparent;
+	-moz-box-shadow: 0px 1px 0px transparent;
+	box-shadow: 0px 1px 0px transparent;
+	-webkit-box-shadow: 0px 1px 0px transparent;
+	-moz-box-shadow: 0px 1px 0px transparent;
+	margin-top: 12px;
+}
+
+._Skins_HTML_Tripane #search-field
+{
+	height: 32px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	color: #696969;
+	font-size: 14px;
+	border-left: solid 5px #cccccc;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background: transparent;
+	background: -moz-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,transparent));
+	background: -webkit-linear-gradient(top, transparent 0%, transparent 100%);
+	background: -o-linear-gradient(top, transparent 0%,transparent 100%);
+	background: -ms-linear-gradient(top, transparent 0%,transparent 100%);
+	background: linear-gradient(top, transparent 0%,transparent 100%);
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+._Skins_HTML_Tripane .search-filter
+{
+	height: 32px;
+	color: #000000;
+	font-size: 14px;
+	background: transparent;
+	background: -moz-linear-gradient(top, #d3d3d3 0%, #d3d3d3 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#d3d3d3));
+	background: -webkit-linear-gradient(top, #d3d3d3 0%, #d3d3d3 100%);
+	background: -o-linear-gradient(top, #d3d3d3 0%,#d3d3d3 100%);
+	background: -ms-linear-gradient(top, #d3d3d3 0%,#d3d3d3 100%);
+	background: linear-gradient(top, #d3d3d3 0%,#d3d3d3 100%);
+	-pie-background: linear-gradient(#d3d3d3, #d3d3d3);
+	border-left: solid 0px transparent;
+	background-position: center;
+}
+
+._Skins_HTML_Tripane .search-submit
+{
+	height: 32px;
+}
+
+._Skins_HTML_Tripane .search-submit-wrapper
+{
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-left: solid 0px transparent;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background: transparent url('Images/magnifying_glass.png') no-repeat center center;
+	background: url('Images/magnifying_glass.png') no-repeat center center, -moz-linear-gradient(top, #808080 0%, #808080 100%);
+	background: url('Images/magnifying_glass.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#808080), color-stop(100%,#808080));
+	background: url('Images/magnifying_glass.png') no-repeat center center, -webkit-linear-gradient(top, #808080 0%, #808080 100%);
+	background: url('Images/magnifying_glass.png') no-repeat center center, -o-linear-gradient(top, #808080 0%,#808080 100%);
+	background: url('Images/magnifying_glass.png') no-repeat center center, -ms-linear-gradient(top, #808080 0%,#808080 100%);
+	background: url('Images/magnifying_glass.png') no-repeat center center, linear-gradient(top, #808080 0%,#808080 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Images/magnifying_glass.png') no-repeat center center, linear-gradient(#808080, #808080);
+}
+
+._Skins_HTML_Tripane .search-account-container
+{
+	
+}
+
+._Skins_HTML_Tripane .search-filter-wrapper
+{
+	color: #000000;
+	font-size: 14px;
+	background: transparent;
+	background: -moz-linear-gradient(top, #d3d3d3 0%, #d3d3d3 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d3d3d3), color-stop(100%,#d3d3d3));
+	background: -webkit-linear-gradient(top, #d3d3d3 0%, #d3d3d3 100%);
+	background: -o-linear-gradient(top, #d3d3d3 0%,#d3d3d3 100%);
+	background: -ms-linear-gradient(top, #d3d3d3 0%,#d3d3d3 100%);
+	background: linear-gradient(top, #d3d3d3 0%,#d3d3d3 100%);
+	-pie-background: linear-gradient(#d3d3d3, #d3d3d3);
+}
+
+._Skins_HTML_Tripane .search-filter span:after
+{
+	border-top-color: #000000;
+}
+
+._Skins_HTML_Tripane .search-filter-content
+{
+	color: #f5f5f5;
+	background-color: #696969;
+}
+
+._Skins_HTML_Tripane .search-filter-wrapper.open
+{
+	color: #f5f5f5;
+	background-color: #696969;
+}
+
+._Skins_HTML_Tripane .search-filter-content ul li:hover
+{
+	color: #f7f7f7;
+	background-color: #6f6f6f;
+}
+
+._Skins_HTML_Tripane #resultList .glossary .definition
+{
+	
+}
+
+._Skins_HTML_Tripane #resultList .glossary
+{
+	margin-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-position: center center;
+}
+
+._Skins_HTML_Tripane #resultList .glossary .term
+{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+._Skins_HTML_Tripane #resultList .glossary .term a
+{
+	
+}
+
+._Skins_HTML_Tripane #resultList .glossary .term a:visited
+{
+	
+}
+
+._Skins_HTML_Tripane #resultList .glossary .term a:focus
+{
+	
+}
+
+._Skins_HTML_Tripane #resultList .glossary .term a:hover
+{
+	
+}
+
+._Skins_HTML_Tripane #resultList .glossary .term a:active
+{
+	
+}
+
+._Skins_HTML_Tripane #results-heading
+{
+	color: #393f45;
+	font-size: 20px;
+	border-bottom: solid 1px #ebebeb;
+}
+
+._Skins_HTML_Tripane #search-field::-webkit-input-placeholder
+{
+	color: #696969;
+}
+
+._Skins_HTML_Tripane #search-field::-moz-placeholder
+{
+	color: #696969;
+}
+
+._Skins_HTML_Tripane #search-field:-moz-placeholder
+{
+	color: #696969;
+}
+
+._Skins_HTML_Tripane #search-field:-ms-input-placeholder
+{
+	color: #696969;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-response
+{
+	max-height: 200px;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-content-expand.expanded
+{
+	background: transparent url('Images/arrow-up.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/arrow-up.png') no-repeat center center;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-content-expand
+{
+	border-top: solid 1px #b9bec1;
+	border-bottom: solid 1px #b9bec1;
+	height: 40px;
+	background: transparent url('Images/arrow-down.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/arrow-down.png') no-repeat center center;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-content-expand-transition-wrapper > .micro-content-expand-transition
+{
+	height: 50px;
+	background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+	background: linear-gradient(top, transparent 0%,#ffffff 100%);
+	-pie-background: linear-gradient(transparent, #ffffff);
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-response-title a
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-response-title
+{
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-response-title a:visited
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-response-title a:focus
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-response-title a:hover
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-response-title a:active
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content > .micro-response-url cite
+{
+	color: #0e774a;
+	font-size: 0.9em;
+	font-style: normal;
+}
+
+._Skins_HTML_Tripane .micro-content-container > .micro-content
+{
+	margin-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-position: center center;
+}
+
+._Skins_HTML_Tripane #pagination
+{
+	height: 40px;
+	line-height: 40px;
+}
+
+._Skins_HTML_Tripane #pagination a
+{
+	border-top: solid 1px #fafafc;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	color: inherit;
+}
+
+._Skins_HTML_Tripane #pagination a:hover
+{
+	border-top: solid 1px #e2e2e6;
+}
+
+._Skins_HTML_Tripane #pagination a#selected
+{
+	border-top: solid 1px #e2e2e6;
+	font-weight: bold;
+}
+
+._Skins_HTML_Tripane #resultList .description
+{
+	font-size: 13px;
+}
+
+._Skins_HTML_Tripane #resultList .title a
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane #resultList .title a:visited
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane #resultList .title a:focus
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane #resultList .title a:hover
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane #resultList .title a:active
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_HTML_Tripane #resultList .url cite
+{
+	color: #0e774a;
+	font-size: 13px;
+	font-style: normal;
+}
+
+._Skins_HTML_Tripane #resultList
+{
+	text-align: left;
+}
+
+._Skins_HTML_Tripane #search-field-sidebar
+{
+	background-image: url('Images/magnifying_glass.png');
+}
+
+._Skins_HTML_Tripane #responsive-search-index
+{
+	background-image: url('Images/magnifying_glass.png');
+}
+
+._Skins_HTML_Tripane #responsive-search-glossary
+{
+	background-image: url('Images/magnifying_glass.png');
+}
+
+._Skins_HTML_Tripane .skip-to-content
+{
+	color: #808080;
+	font-family: Arial;
+	font-size: 16pt;
+	font-weight: normal;
+	font-style: normal;
+	background-color: #ffffff;
+}
+
+._Skins_HTML_Tripane #contentBody
+{
+	background-color: transparent;
+}
+
+._Skins_Favicons .central-dropdown
+{
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-top: 12px;
+}
+
+._Skins_Favicons .central-account-wrapper
+{
+	float: right;
+	display: block;
+}
+
+._Skins_Favicons .central-dropdown .central-account-drop
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+._Skins_Favicons .central-dropdown:hover
+{
+	
+}
+
+._Skins_Favicons .central-account-text
+{
+	color: #dadada;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+._Skins_Favicons .central-account-text:after
+{
+	border-top-color: #dadada;
+}
+
+._Skins_Favicons .central-account-text:hover
+{
+	
+}
+
+._Skins_Favicons .central-account-image
+{
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-left: 5px;
+	margin-right: 5px;
+	background: transparent url('Images/Favicons/icon-user-light-gray.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/icon-user-light-gray.png') no-repeat center center;
+}
+
+._Skins_Favicons .central-dropdown-content
+{
+	line-height: 35px;
+	text-align: center;
+	width: 100px;
+	height: auto;
+	left: auto;
+	right: 0px;
+	background-color: #ffffff;
+}
+
+._Skins_Favicons .central-dropdown:after
+{
+	border-bottom-color: #ffffff;
+}
+
+._Skins_Favicons .central-dropdown-content a
+{
+	color: #3d3d3d;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+._Skins_Favicons .central-dropdown-content a:hover
+{
+	text-decoration: underline;
+}
+
+._Skins_Favicons .central-separator
+{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	height: 1px;
+	color: #D5D8DA;
+	background-color: #D5D8DA;
+}
+
+._Skins_Favicons .comments .timestamp
+{
+	color: #888888;
+	font-family: Georgia;
+	font-size: 11px;
+	font-style: italic;
+}
+
+._Skins_Favicons .login-dialog-content
+{
+	border-top: solid 1px #767676;
+	background-color: #5a5a5a;
+}
+
+._Skins_Favicons .login-dialog button
+{
+	color: #ffffff;
+	font-weight: bold;
+	background-repeat: no-repeat;
+	border-left: solid 1px #2b2b2b;
+	border-right: solid 1px #2b2b2b;
+	border-top: solid 1px #2b2b2b;
+	border-bottom: solid 1px #2b2b2b;
+	background: #595959;
+	background: -moz-linear-gradient(top, #595959 0%, #4a4a4a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#595959), color-stop(100%,#4a4a4a));
+	background: -webkit-linear-gradient(top, #595959 0%, #4a4a4a 100%);
+	background: -o-linear-gradient(top, #595959 0%,#4a4a4a 100%);
+	background: -ms-linear-gradient(top, #595959 0%,#4a4a4a 100%);
+	background: linear-gradient(top, #595959 0%,#4a4a4a 100%);
+	-pie-background: linear-gradient(#595959, #4a4a4a);
+	background-position: center center;
+}
+
+._Skins_Favicons .login-dialog-header
+{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: bold;
+	border-bottom: solid 1px #2b2b2b;
+	background: #5a5a5a url('Images/Favicons/login-dialog-icon.png') no-repeat 18px center;
+	background: url('Images/Favicons/login-dialog-icon.png') no-repeat 18px center, -moz-linear-gradient(top, #5a5a5a 0%, #4a4a4a 100%);
+	background: url('Images/Favicons/login-dialog-icon.png') no-repeat 18px center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5a5a5a), color-stop(100%,#4a4a4a));
+	background: url('Images/Favicons/login-dialog-icon.png') no-repeat 18px center, -webkit-linear-gradient(top, #5a5a5a 0%, #4a4a4a 100%);
+	background: url('Images/Favicons/login-dialog-icon.png') no-repeat 18px center, -o-linear-gradient(top, #5a5a5a 0%,#4a4a4a 100%);
+	background: url('Images/Favicons/login-dialog-icon.png') no-repeat 18px center, -ms-linear-gradient(top, #5a5a5a 0%,#4a4a4a 100%);
+	background: url('Images/Favicons/login-dialog-icon.png') no-repeat 18px center, linear-gradient(top, #5a5a5a 0%,#4a4a4a 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Images/Favicons/login-dialog-icon.png') no-repeat 18px center, linear-gradient(#5a5a5a, #4a4a4a);
+}
+
+._Skins_Favicons .login-dialog-content .profile-item-wrapper .email-notifications-group
+{
+	background-color: #4a4a4a;
+}
+
+._Skins_Favicons .login-dialog-content input[type=text]
+{
+	
+}
+
+._Skins_Favicons .login-dialog-content .profile-item-wrapper
+{
+	color: #cecece;
+}
+
+._Skins_Favicons #glossary .GlossaryPageEntry .GlossaryPageDefinition
+{
+	color: #707070;
+}
+
+._Skins_Favicons #header
+{
+	display: block;
+	height: 60px;
+}
+
+._Skins_Favicons #body
+{
+	top: 60px;
+}
+
+._Skins_Favicons #contentBodyInner
+{
+	top: 38px;
+}
+
+._Skins_Favicons #header .logo
+{
+	display: block;
+	background: transparent url('Images/Favicons/logo_light.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/logo_light.png') no-repeat center center;
+	width: 130px;
+	height: 59px;
+	margin-top: -29.5px;
+}
+
+._Skins_Favicons #responsiveHeader .logo
+{
+	display: block;
+	width: 130px;
+	background: transparent url('Images/Favicons/logo_light.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/logo_light.png') no-repeat center center;
+}
+
+._Skins_Favicons #header .logo > img
+{
+	width: 130px;
+	height: 59px;
+}
+
+._Skins_Favicons #responsiveHeader .logo > img
+{
+	width: 130px;
+	height: 59px;
+}
+
+._Skins_Favicons body
+{
+	color: #000000;
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: normal;
+	font-style: normal;
+	background: transparent url('Images/Favicons/diagonal_lines.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/diagonal_lines.png');
+}
+
+._Skins_Favicons #responsiveHeader
+{
+	background: transparent url('Images/Favicons/diagonal_lines.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/diagonal_lines.png');
+}
+
+._Skins_Favicons .MCWebHelpFramesetLink a
+{
+	color: #0000ee;
+}
+
+._Skins_Favicons .MCWebHelpFramesetLink .MCWebHelpFramesetLinkBottom a
+{
+	
+}
+
+._Skins_Favicons .MCWebHelpFramesetLink .MCWebHelpFramesetLinkTop a
+{
+	
+}
+
+._Skins_Favicons .tabs-panel-content
+{
+	padding-left: 7px;
+	padding-right: 7px;
+	padding-top: 8px;
+	border-left: solid 1px #e1e1e1;
+	border-right: solid 1px #e1e1e1;
+	border-top: solid 1px #e1e1e1;
+	background-color: #ffffff;
+}
+
+._Skins_Favicons #navigation[role="complementary"]
+{
+	background-color: #ffffff;
+}
+
+._Skins_Favicons #browseSequences.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_Favicons #community.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_Favicons #glossary.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_Favicons #index.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_Favicons #index .tree-node.tree-node-expanded > div
+{
+	background: transparent url('Images/Favicons/index-expanded.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index-expanded.png') no-repeat 0 3px;
+	padding-left: 15px;
+}
+
+._Skins_Favicons .web #index .tree-node.tree-node-expanded > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index-expanded.png') no-repeat 0 3px;
+	background: url('Images/Favicons/index-expanded.png') no-repeat  0 3px,#e5eff7;
+}
+
+._Skins_Favicons #index .tree-node.tree-node-expanded.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index-expanded.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/index-expanded.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons .web #index .tree-node.tree-node-expanded.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index-expanded.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/index-expanded.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons #index .tree-node.tree-node-collapsed > div
+{
+	background: transparent url('Images/Favicons/index-collapsed.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index-collapsed.png') no-repeat 0 3px;
+	padding-left: 15px;
+}
+
+._Skins_Favicons .web #index .tree-node.tree-node-collapsed > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index-collapsed.png') no-repeat 0 3px;
+	background: url('Images/Favicons/index-collapsed.png') no-repeat  0 3px,#e5eff7;
+}
+
+._Skins_Favicons #index .tree-node.tree-node-collapsed.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index-collapsed.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/index-collapsed.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons .web #index .tree-node.tree-node-collapsed.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index-collapsed.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/index-collapsed.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons #index .tree-node.tree-node-leaf > div
+{
+	background: transparent url('Images/Favicons/index.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index.png') no-repeat 0 3px;
+	padding-left: 15px;
+}
+
+._Skins_Favicons .web #index .tree-node.tree-node-leaf > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index.png') no-repeat 0 3px;
+	background: url('Images/Favicons/index.png') no-repeat  0 3px,#e5eff7;
+}
+
+._Skins_Favicons #index .tree-node.tree-node-leaf.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/index.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons .web #index .tree-node.tree-node-leaf.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/index.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/index.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons #search.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_Favicons #toc.tabs-panel-content
+{
+	background-color: #ffffff;
+}
+
+._Skins_Favicons .tree-node.tree-node-collapsed > div
+{
+	background: transparent url('Images/Favicons/book.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/book.png') no-repeat 0 3px;
+	padding-left: 21px;
+}
+
+._Skins_Favicons .web .tree-node.tree-node-collapsed > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/book.png') no-repeat 0 3px;
+	background: url('Images/Favicons/book.png') no-repeat  0 3px,#e5eff7;
+}
+
+._Skins_Favicons .tree-node.tree-node-collapsed.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/book.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/book.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons .web .tree-node.tree-node-collapsed.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/book.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/book.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons .tree-node.tree-node-expanded > div
+{
+	background: transparent url('Images/Favicons/book-open.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/book-open.png') no-repeat 0 3px;
+	padding-left: 21px;
+}
+
+._Skins_Favicons .web .tree-node.tree-node-expanded > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/book-open.png') no-repeat 0 3px;
+	background: url('Images/Favicons/book-open.png') no-repeat  0 3px,#e5eff7;
+}
+
+._Skins_Favicons .tree-node.tree-node-expanded.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/book-open.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/book-open.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons .web .tree-node.tree-node-expanded.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/book-open.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/book-open.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons .tree-node.tree-node-leaf > div
+{
+	background: transparent url('Images/Favicons/topic.png') no-repeat 0 3px;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/topic.png') no-repeat 0 3px;
+	padding-left: 21px;
+}
+
+._Skins_Favicons .web .tree-node.tree-node-leaf > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/topic.png') no-repeat 0 3px;
+	background: url('Images/Favicons/topic.png') no-repeat  0 3px,#e5eff7;
+}
+
+._Skins_Favicons .tree-node.tree-node-leaf.tree-node-selected > div
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/topic.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/topic.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons .web .tree-node.tree-node-leaf.tree-node-selected > div:hover
+{
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/topic.png') no-repeat 0 3px;
+	color: #000000;
+	background: url('Images/Favicons/topic.png') no-repeat  0 3px,#cce0f0;
+}
+
+._Skins_Favicons .tree-node .new-indicator
+{
+	background: transparent url('Images/Favicons/new-indicator.png') no-repeat;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/new-indicator.png') no-repeat;
+	width: 12px;
+	height: 7px;
+}
+
+html.left-layout._Skins_Favicons #show-hide-navigation:after
+{
+	color: #898989;
+	border-right-color: #898989;
+}
+
+html.left-layout._Skins_Favicons .nav-closed #show-hide-navigation:after
+{
+	border-left-color: #898989;
+}
+
+._Skins_Favicons .tree-node div
+{
+	color: #707070;
+	line-height: 1.9em;
+}
+
+._Skins_Favicons .tree-node.tree-node-selected > div
+{
+	color: #000000;
+	background-color: #cce0f0;
+}
+
+._Skins_Favicons .web .tree-node.tree-node-selected > div:hover
+{
+	color: #000000;
+	background-color: #cce0f0;
+}
+
+._Skins_Favicons #index .tree-node.tree-node-selected > div
+{
+	color: #000000;
+	background-color: #cce0f0;
+}
+
+._Skins_Favicons .web #index .tree-node.tree-node-selected > div:hover
+{
+	color: #000000;
+	background-color: #cce0f0;
+}
+
+._Skins_Favicons .SearchFilterEntry.tree-node .SearchFilter.active
+{
+	background-color: #cce0f0;
+	color: #000000;
+}
+
+._Skins_Favicons .tabs-panel-search
+{
+	background-repeat: no-repeat;
+	color: #000000;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+._Skins_Favicons .tabs-nav li
+{
+	width: 100px;
+	height: 28px;
+	navigation-tab-layout: ImageThenText;
+	text-align: center;
+	line-height: 28px;
+}
+
+._Skins_Favicons .tabs-panel
+{
+	top: 28px;
+	background-color: #f7f7f7;
+}
+
+._Skins_Favicons .tabs-nav li#BrowseSequencesTab
+{
+	
+}
+
+._Skins_Favicons .tabs-nav li#CommunityTab
+{
+	
+}
+
+._Skins_Favicons .tabs-nav li#GlossaryTab
+{
+	
+}
+
+._Skins_Favicons .tabs-nav li#IndexTab
+{
+	
+}
+
+._Skins_Favicons .tabs-nav li#SearchTab
+{
+	
+}
+
+._Skins_Favicons .tabs-nav li#TocTab
+{
+	
+}
+
+._Skins_Favicons .tabs-nav li.tabs-nav-active
+{
+	color: #000000;
+	border-right: solid 1px #494949;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	-pie-background: linear-gradient(#ffffff, #f7f7f7);
+}
+
+._Skins_Favicons #show-hide-navigation
+{
+	background-color: #f7f7f7;
+}
+
+._Skins_Favicons .tabs-nav li#BrowseSequencesTab.tabs-nav-active
+{
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	-pie-background: linear-gradient(#ffffff, #f7f7f7);
+}
+
+._Skins_Favicons .tab-icon #BrowseSequencesTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/browseActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/browseActive.png');
+}
+
+._Skins_Favicons .tabs-nav li#CommunityTab.tabs-nav-active
+{
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	-pie-background: linear-gradient(#ffffff, #f7f7f7);
+}
+
+._Skins_Favicons .tab-icon #CommunityTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/communityActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/communityActive.png');
+}
+
+._Skins_Favicons .tabs-nav li#GlossaryTab.tabs-nav-active
+{
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	-pie-background: linear-gradient(#ffffff, #f7f7f7);
+}
+
+._Skins_Favicons .tab-icon #GlossaryTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/glossaryActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/glossaryActive.png');
+}
+
+._Skins_Favicons .tabs-nav li#IndexTab.tabs-nav-active
+{
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	-pie-background: linear-gradient(#ffffff, #f7f7f7);
+}
+
+._Skins_Favicons .tab-icon #IndexTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/indexActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/indexActive.png');
+}
+
+._Skins_Favicons .tabs-nav li#SearchTab.tabs-nav-active
+{
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	-pie-background: linear-gradient(#ffffff, #f7f7f7);
+}
+
+._Skins_Favicons .tab-icon #SearchTab.tabs-nav-active .tabs-nav-icon
+{
+	
+}
+
+._Skins_Favicons .tabs-nav li#TocTab.tabs-nav-active
+{
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7));
+	background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+	background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	background: linear-gradient(top, #ffffff 0%,#f7f7f7 100%);
+	-pie-background: linear-gradient(#ffffff, #f7f7f7);
+}
+
+._Skins_Favicons .tab-icon #TocTab.tabs-nav-active .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/tocActive.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/tocActive.png');
+}
+
+._Skins_Favicons .tabs-nav li.tabs-nav-inactive
+{
+	color: #636363;
+	border-right: solid 1px #cccccc;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	text-shadow: none;
+	-webkit-text-shadow: none;
+	-moz-text-shadow: none;
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+	background-clip: padding-box;
+}
+
+._Skins_Favicons .tabs-nav li#BrowseSequencesTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_Favicons .tab-icon #BrowseSequencesTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/browseInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/browseInactiveLight.png');
+}
+
+._Skins_Favicons .tabs-nav li#CommunityTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_Favicons .tab-icon #CommunityTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/communityInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/communityInactiveLight.png');
+}
+
+._Skins_Favicons .tabs-nav li#GlossaryTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_Favicons .tab-icon #GlossaryTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/glossaryInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/glossaryInactiveLight.png');
+}
+
+._Skins_Favicons .tabs-nav li#IndexTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_Favicons .tab-icon #IndexTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/indexInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/indexInactiveLight.png');
+}
+
+._Skins_Favicons .tabs-nav li#SearchTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_Favicons .tab-icon #SearchTab.tabs-nav-inactive .tabs-nav-icon
+{
+	
+}
+
+._Skins_Favicons .tabs-nav li#TocTab.tabs-nav-inactive
+{
+	background: #ebebeb;
+	background: -moz-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebebeb), color-stop(100%,#dadada));
+	background: -webkit-linear-gradient(top, #ebebeb 0%, #dadada 100%);
+	background: -o-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: -ms-linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	background: linear-gradient(top, #ebebeb 0%,#dadada 100%);
+	-pie-background: linear-gradient(#ebebeb, #dadada);
+}
+
+._Skins_Favicons .tab-icon #TocTab.tabs-nav-inactive .tabs-nav-icon
+{
+	background: transparent url('Images/Favicons/tocInactiveLight.png');
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/tocInactiveLight.png');
+}
+
+._Skins_Favicons .search-bar
+{
+	display: block;
+	border-left: solid 1px #cccccc;
+	border-right: solid 1px #cccccc;
+	border-top: solid 1px #cccccc;
+	border-bottom: solid 1px #cccccc;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+	margin-top: 14px;
+}
+
+._Skins_Favicons #search-field
+{
+	height: 28px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	color: #636363;
+	border-left: solid 1px #cccccc;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background: #fefefe;
+	background: -moz-linear-gradient(top, #fefefe 0%, #e2e2e2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#e2e2e2));
+	background: -webkit-linear-gradient(top, #fefefe 0%, #e2e2e2 100%);
+	background: -o-linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	background: -ms-linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	background: linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	-pie-background: linear-gradient(#fefefe, #e2e2e2);
+}
+
+._Skins_Favicons .search-filter
+{
+	height: 28px;
+	color: #636363;
+	background: #fefefe;
+	background: -moz-linear-gradient(top, #fefefe 0%, #e2e2e2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#e2e2e2));
+	background: -webkit-linear-gradient(top, #fefefe 0%, #e2e2e2 100%);
+	background: -o-linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	background: -ms-linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	background: linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	-pie-background: linear-gradient(#fefefe, #e2e2e2);
+	border-left: solid 1px #cccccc;
+	background-position: center;
+}
+
+._Skins_Favicons .search-submit
+{
+	height: 28px;
+}
+
+._Skins_Favicons .search-submit-wrapper
+{
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-left: solid 1px #cccccc;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background: #fefefe url('Images/Favicons/search.png') no-repeat center center;
+	background: url('Images/Favicons/search.png') no-repeat center center, -moz-linear-gradient(top, #fefefe 0%, #e2e2e2 100%);
+	background: url('Images/Favicons/search.png') no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#e2e2e2));
+	background: url('Images/Favicons/search.png') no-repeat center center, -webkit-linear-gradient(top, #fefefe 0%, #e2e2e2 100%);
+	background: url('Images/Favicons/search.png') no-repeat center center, -o-linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	background: url('Images/Favicons/search.png') no-repeat center center, -ms-linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	background: url('Images/Favicons/search.png') no-repeat center center, linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	-pie-background: url('Skins/Default/Stylesheets/Images/Favicons/search.png') no-repeat center center, linear-gradient(#fefefe, #e2e2e2);
+}
+
+._Skins_Favicons .search-account-container
+{
+	
+}
+
+._Skins_Favicons .search-filter-wrapper
+{
+	color: #636363;
+	background: #fefefe;
+	background: -moz-linear-gradient(top, #fefefe 0%, #e2e2e2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#e2e2e2));
+	background: -webkit-linear-gradient(top, #fefefe 0%, #e2e2e2 100%);
+	background: -o-linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	background: -ms-linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	background: linear-gradient(top, #fefefe 0%,#e2e2e2 100%);
+	-pie-background: linear-gradient(#fefefe, #e2e2e2);
+}
+
+._Skins_Favicons .search-filter span:after
+{
+	border-top-color: #636363;
+}
+
+._Skins_Favicons .search-filter-content
+{
+	background-color: #cccccc;
+}
+
+._Skins_Favicons .search-filter-wrapper.open
+{
+	background-color: #cccccc;
+}
+
+._Skins_Favicons .search-filter-content ul li:hover
+{
+	color: #f7f7f7;
+	background-color: #6f6f6f;
+}
+
+._Skins_Favicons #resultList .glossary .definition
+{
+	
+}
+
+._Skins_Favicons #resultList .glossary
+{
+	margin-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-position: center center;
+}
+
+._Skins_Favicons #resultList .glossary .term
+{
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+._Skins_Favicons #resultList .glossary .term a
+{
+	
+}
+
+._Skins_Favicons #resultList .glossary .term a:visited
+{
+	
+}
+
+._Skins_Favicons #resultList .glossary .term a:focus
+{
+	
+}
+
+._Skins_Favicons #resultList .glossary .term a:hover
+{
+	
+}
+
+._Skins_Favicons #resultList .glossary .term a:active
+{
+	
+}
+
+._Skins_Favicons #results-heading
+{
+	color: #393f45;
+	font-size: 20px;
+	border-bottom: solid 1px #ebebeb;
+}
+
+._Skins_Favicons #search-field::-webkit-input-placeholder
+{
+	color: #636363;
+}
+
+._Skins_Favicons #search-field::-moz-placeholder
+{
+	color: #636363;
+}
+
+._Skins_Favicons #search-field:-moz-placeholder
+{
+	color: #636363;
+}
+
+._Skins_Favicons #search-field:-ms-input-placeholder
+{
+	color: #636363;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-response
+{
+	max-height: 200px;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-content-expand.expanded
+{
+	background: transparent url('Images/Favicons/arrow-up.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/arrow-up.png') no-repeat center center;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-content-expand
+{
+	border-top: solid 1px #b9bec1;
+	border-bottom: solid 1px #b9bec1;
+	height: 40px;
+	background: transparent url('Images/Favicons/arrow-down.png') no-repeat center center;
+	-pie-background: transparent url('Skins/Default/Stylesheets/Images/Favicons/arrow-down.png') no-repeat center center;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-content-expand-transition-wrapper > .micro-content-expand-transition
+{
+	height: 50px;
+	background: -moz-linear-gradient(top, transparent 0%, #ffffff 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,transparent), color-stop(100%,#ffffff));
+	background: -webkit-linear-gradient(top, transparent 0%, #ffffff 100%);
+	background: -o-linear-gradient(top, transparent 0%,#ffffff 100%);
+	background: -ms-linear-gradient(top, transparent 0%,#ffffff 100%);
+	background: linear-gradient(top, transparent 0%,#ffffff 100%);
+	-pie-background: linear-gradient(transparent, #ffffff);
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-response-title a
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-response-title
+{
+	margin-top: 10px;
+	margin-bottom: 2px;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-response-title a:visited
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-response-title a:focus
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-response-title a:hover
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-response-title a:active
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content > .micro-response-url cite
+{
+	color: #0e774a;
+	font-size: 0.9em;
+	font-style: normal;
+}
+
+._Skins_Favicons .micro-content-container > .micro-content
+{
+	margin-bottom: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-position: center center;
+}
+
+._Skins_Favicons #pagination
+{
+	height: 40px;
+	line-height: 40px;
+}
+
+._Skins_Favicons #pagination a
+{
+	border-top: solid 1px #fafafc;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-decoration: none;
+	color: inherit;
+}
+
+._Skins_Favicons #pagination a:hover
+{
+	border-top: solid 1px #e2e2e6;
+}
+
+._Skins_Favicons #pagination a#selected
+{
+	border-top: solid 1px #e2e2e6;
+	font-weight: bold;
+}
+
+._Skins_Favicons #resultList .description
+{
+	font-size: 13px;
+}
+
+._Skins_Favicons #resultList .title a
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons #resultList .title a:visited
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons #resultList .title a:focus
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons #resultList .title a:hover
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons #resultList .title a:active
+{
+	color: #2200c1;
+	text-decoration: underline;
+}
+
+._Skins_Favicons #resultList .url cite
+{
+	color: #0e774a;
+	font-size: 13px;
+	font-style: normal;
+}
+
+._Skins_Favicons #resultList
+{
+	text-align: left;
+}
+
+._Skins_Favicons #search-field-sidebar
+{
+	background-image: url('Images/Favicons/search.png');
+}
+
+._Skins_Favicons #responsive-search-index
+{
+	background-image: url('Images/Favicons/search.png');
+}
+
+._Skins_Favicons #responsive-search-glossary
+{
+	background-image: url('Images/Favicons/search.png');
+}
+
+._Skins_Favicons .skip-to-content
+{
+	color: #808080;
+	font-family: Arial;
+	font-size: 16pt;
+	font-weight: normal;
+	font-style: normal;
+	background-color: #ffffff;
+}
+
+._Skins_Favicons #contentBody
+{
+	background-color: #f7f7f7;
+}
+
