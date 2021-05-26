@@ -1,0 +1,1 @@
+define({"0":{y:0,u:"../FrontMatter-HTML/Home.htm",l:-1,t:"Home",i:1,a:"    NCR ADVANCED STORE\n\t\t Online Documentation Release 6.8 R26  "},});
