@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Web API Reference" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Batchapply</title>
+        <!-- Call Return to Top of Topic button script -->
+        <!-- Call Google Analytics script -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../resources/tablestyles/ip-1_breaks.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../../../resources/stylesheets/ip-master.css" rel="stylesheet" type="text/css" />
+        <script src="../../../resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapGlobal.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapDom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapUtilities.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapXhr.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTextEffects.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSlideshow.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMessageBus.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMessageBus.CrossFrame.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapDefault.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMediaQueries.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapAccessibility.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapHelpSystem.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapAliasFile.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopicFeedback.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapFeedbackHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSkinHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.Breadcrumbs.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.MiniToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.SideMenu.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapIndex.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapGlossary.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapParser.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSearch.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopic.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapFeedback.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSearchHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapNavigateTopics.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopicElements.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTriPane.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/scripts/returntotop.js">
+        </script>
+        <script src="../../../resources/scripts/googleanalytics.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.html#topics/webapi/2-api methods/batchapply.html">Open topic with navigation</a>
+        </p>
+        <p />
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="5" data-mc-toc="True">
+            </div>
+        </div>
+        <div role="main" id="mc-main-content">
+            <h2>Batchapply</h2>
+            <p class="Body">The Batchapply API can be used to manage taxonomy, user, and product batch data on the server.</p>
+            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                            <p class="CellHead">Method</p>
+                        </th>
+                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                            <p class="CellHead">Request URL</p>
+                        </th>
+                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                            <p class="CellHead">Description</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">POST</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/BatchApply</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Adds new batch data.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p><span class="ProgramText">api/v7/BatchApply?BatchCode={BatchCode}</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Searches for an existing batch data using its batch code.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">PUT</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/BatchApply?BatchCode={BatchCode}&amp;Status={Status}</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Updates the specified batch data.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/BatchApply?StartDate={StartDate}&amp;EndDate}</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                            <p class="CellBody">Retrieves information on all the batch data that was created and modified within the specified time period.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>HTTP&#160;request details</h3>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />POST api/v7/BatchApply</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameters</h4>
+                            <p class="Body">None.</p>
+                            <h4>Body parameters</h4>
+                            <p class="Body">The following table describes the parameters available for the <span class="ProgramText">POST api/v7/BatchApply</span> request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">batchID</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Specifies the  ID of the batch data. Length: 1 – 20.</p>
+                                            <p class="Cell-Note" data-mc-autonum="Note: "><span class="autonumber"><span class="Bold">Note: </span></span>This parameter is optional. If the batch ID is not specified, the system automatically generates a batch ID.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">applyDateTime</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Specifies the date and time the batch data will be added.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">date</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">fileCount</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Specifies the total number of payload files to be added.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">integer</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">fileType</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Defines the type of the payload files to be added. The values for this parameter can be one of the following:</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">product</span>
+                                            </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">taxonomy</span>
+                                            </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">user</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">fileFormat</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Specifies the format of the control files to be added. The values for this parameter can be one of the following:</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">application/json</span>
+                                            </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">application/xml</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">payloadType</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the code representing the payload file type.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">integer</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">filesList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Contains the list of data files and the order in which to load the files. </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><u><i>BatchApplyInformation</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">batchChecksumValidation</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Enables or disables the checksum validation of the batch data. The value for this parameter can be one of the following:</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">Yes</span>
+                                            </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">No</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p><code>autoStoreDataLoad</code>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Flag indicating whether data should be loaded to the store automatically through the StoreDataLoad process. A value of zero, NULL, or greater than 2 indicates that there is no change in the existing process. The values for this parameter can be one of the following:</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">NULL</span>—send only updated data down to the affected store(s). This is the default behavior if the parameter is not included.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">0</span>—send only updated data down to the affected store(s).  </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">1</span>—push data for StoreDataLoad process after the batch is complete.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">2</span>—no message published to queue, only insert data in database.</p>
+                                            <p class="Cell-Note" data-mc-autonum="Note: "><span class="autonumber"><span class="Bold">Note: </span></span>This parameter and value are optional. When  it is omitted or not specified, the software will behave as it did in previous releases.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">integer</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON request format</h4><pre>{
+  "batchId": "sample string 1",
+  "applyDateTime": "2019-02-21T10:21:53.3104093-08:00",
+  "fileCount": 2,
+  "fileType": "sample string 3",
+  "fileFormat": "sample string 4",
+  "payloadType": 1,
+  "autoStoreDataLoad": 1
+  "filesList": [
+    {
+      "fileOrder": 1,
+      "fileName": "sample string 2",
+      "recordContainsInFile": 1,
+      "checkSumValue": "sample string 3"
+    },
+    {
+      "fileOrder": 1,
+      "fileName": "sample string 2",
+      "recordContainsInFile": 1,
+      "checkSumValue": "sample string 3"
+    }
+  ],
+  "batchChecksumValidation": "sample string 5"
+}</pre>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The API&#160;response indicates the success or failure status of the <span class="ProgramText">POST api/v7/BatchApply</span> request. The following table describes the information contained in the API response.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Version</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Content</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">StatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ReasonPhrase</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Headers</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">RequestMessage</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">IsSuccessStatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/BatchApply?BatchCode={BatchCode}</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameter</h4>
+                            <p class="Body">The following table describes the parameter forming the HTTP&#160;request URL.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">BatchCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Specifies the code of the batch data information to be searched.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p>Yes</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The following table describes the information retrieved by the <span class="ProgramText">GET api/v7/BatchApply?BatchCode={BatchCode}</span> request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1">
+                                </col>
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1">
+                                </col>
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">batchCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the batch code of the specified control file.</p>
+                                            <p class="Cell-Note" data-mc-autonum="Note: "><span class="autonumber"><span class="Bold">Note: </span></span>The control file batch code must match with the batch code of the payload file.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">tenantId</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the ID of the tenant.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">orgId</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the current taxonomy ID of the control file.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">userName</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the name of the user who submitted the control file.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">userCulture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the culture for the user who submitted the control file.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">orgCulture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the culture for the organization associated with the user who submitted the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">payloadData</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the control file that contains the details for the BA processing.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">applyStatus</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the status of the control file. The value for this parameter can be one of the following:</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">0</span> (new)—the control file is new.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">1</span> (applying)—the control file is currently being applied.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">2</span> (success)—the control file has been successfully applied.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">3</span> (failed)—the control file has not been applied.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">4</span> (future)—the control file is set to be applied in a future date.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">5</span> (completed with error)—the control file has been successfully applied, but the application contains errors.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">createDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the date the batch data was created. </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">lastChangedTime</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the date and time when the batch data was last modified.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">fileDetails</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Lists down the details of the control files in the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">version</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Specifies the version of the batch apply.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">applyStartTime</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the time when the batch apply for the batch data started.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">applyCompleteTime</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the time when the batch apply for batch data was completed.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">totalNumberOfFiles</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the total number of control files in the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">numberOfFilesPassed</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the number of control files in the batch data that were successfully applied to the server.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">fileDetails</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the number of control files in the batch data that failed to be applied.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">version</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the version of the batch apply.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">applyStartTime</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the date when the batch data application was started.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">applyCompleteTime</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Specifies the date when the batch data application was completed.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">totalNumberOfFiles</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the total number of files in the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">numberOfFilesPassed</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the number of files in the batch data that were successfully applied.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">numberOfFilesFailed</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Specifies the number of files in the batch data that failed to be applied.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON response format</h4><pre>{
+  "batchCode": "sample string 1",
+  "tenantId": 2,
+  "orgId": 3,
+  "userName": "sample string 4",
+  "userCulture": "sample string 5",
+  "orgCulture": "sample string 6",
+  "payloadData": "sample string 7",
+  "applyStatus": 8,
+  "createDate": "2019-02-27T06:35:25.3292322-08:00",
+  "lastChangedTime": "2019-02-27T06:35:25.3292322-08:00",
+  "fileDetails": [
+    {
+      "payloadFileName": "sample string 1",
+      "fileOrder": 2,
+      "action": "sample string 3",
+      "dataType": "sample string 4",
+      "applyDateTime": "2019-02-27T06:35:25.3292322-08:00",
+      "applyCompleteTime": "2019-02-27T06:35:25.3292322-08:00",
+      "applyStatus": "sample string 6",
+      "applyStatusCode": 7,
+      "totalFileRecords": 1,
+      "fileRecordsPassed": 1,
+      "fileRecordsFailed": 1,
+      "recordContainsInFile": 1,
+      "checkSumValue": "sample string 8"
+    },
+    {
+      "payloadFileName": "sample string 1",
+      "fileOrder": 2,
+      "action": "sample string 3",
+      "dataType": "sample string 4",
+      "applyDateTime": "2019-02-27T06:35:25.3292322-08:00",
+      "applyCompleteTime": "2019-02-27T06:35:25.3292322-08:00",
+      "applyStatus": "sample string 6",
+      "applyStatusCode": 7,
+      "totalFileRecords": 1,
+      "fileRecordsPassed": 1,
+      "fileRecordsFailed": 1,
+      "recordContainsInFile": 1,
+      "checkSumValue": "sample string 8"
+    }
+  ],
+  "version": "sample string 11",
+  "applyStartTime": "2019-02-27T06:35:25.3292322-08:00",
+  "applyCompleteTime": "2019-02-27T06:35:25.3292322-08:00",
+  "totalNumberOfFiles": 1,
+  "numberOfFilesPassed": 1,
+  "numberOfFilesFailed": 1
+}</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />PUT api/v7/BatchApply?BatchCode={BatchCode}&amp;Status{Status}</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameters</h4>
+                            <p class="Body">The following table describes the parameters forming the HTTP&#160;request URL.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">BatchCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Specifies the code of the batch data information to be updated or added.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Status</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Specifies the status of the batch data. The value for this parameter can be one of the following:</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">0</span> (NEW)—the control file is new.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">1</span> (APPLYING)—the control file is currently being applied.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">2</span> (SUCCESS)—the control file has been successfully applied.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">3</span> (FAILED)—the application of the control file  has failed.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">4</span> (FUTURE)—the control file is set to be applied in a future date.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">5</span> (CHECKSUM_VALIDATION_IN_PROCESS)—the control file has been applied, but contains errors.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">6</span> (PRE_CHECKING)—the control file has been applied, but contains errors.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">7</span> (IN_PROCESS) </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">8</span> (PRE_CHECK_FAILED)</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><u><i>BatchApplyStatus</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The API response indicates the success or failure status of the <span class="ProgramText">PUT api/v7/BatchApply?BatchCode={BatchCode}&amp;Status{Status}</span>&#160;request. The following table describes the information contained in the API response.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Version</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Content</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">StatusCodw</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ReasonPhrase</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Headers</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">RequestMessage</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">IsSuccessStatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/BatchApply?StartDate={StartDate}&amp;EndDate={EndDate}</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI&#160;parameters</h4>
+                            <p class="Body">The following table describes the parameters forming the HTTP&#160;request URL.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">StartDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Specifies the beginning date of the time period to be searched.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">EndDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Specifies the end date of the time period to be searched.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p>Yes</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The following table describes the information retrieved by the <span class="ProgramText">GET api/v7/BatchApply?StartDate={StartDate}&amp;EndDate={EndDate}</span> request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">batchCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the code of the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">tenantID</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the ID of the tenant.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">orgId</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the current taxonomy ID of the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">userName</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Specifies the name of the user who submitted the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">userCulture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the culture for the user who submitted the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">orgCulture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the culture of the user’s organization.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">payloadData</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the control file that contains the details for the BA processing.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">applyStatus</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the status of the control file. The value for this parameter can be one of the following:</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">0</span> (new)—the control file is new.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">1</span> (applying)—the control file is currently being applied.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">2</span> (success)—the control file has been successfully applied.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">3</span> (failed)—the control file has not been applied.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">4</span> (future)—the control file is set to be applied in a future date.</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">5</span> (completed with error)—the control file has been successfully applied, but the application contains errors.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">createDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the date the batch data was created.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">lastChangedTime</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the date and time when the batch data was last modified.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">fileDetails</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Lists down the details of the control files in the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">version</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Specifies the version of the batch apply.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">applyStartTime</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the time when the batch apply for the batch data started.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">applyCompleteTime</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the time when the batch apply for batch data was completed.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">totalNumberOfFiles</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the total number of control files in the batch data.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">numberOfFilesPassed</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the number of control files in the batch data that were successfully applied.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">numberOfFilesFailed</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Specifies the number of files in the batch data that failed to be applied.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON&#160;response format</h4><pre>[
+  {
+    "batchCode": "sample string 1",
+    "tenantId": 2,
+    "orgId": 3,
+    "userName": "sample string 4",
+    "userCulture": "sample string 5",
+    "orgCulture": "sample string 6",
+    "payloadData": "sample string 7",
+    "applyStatus": 8,
+    "createDate": "2019-02-27T10:09:18.1355778-08:00",
+    "lastChangedTime": "2019-02-27T10:09:18.1355778-08:00",
+    "fileDetails": [
+      {
+        "payloadFileName": "sample string 1",
+        "fileOrder": 2,
+        "action": "sample string 3",
+        "dataType": "sample string 4",
+        "applyDateTime": "2019-02-27T10:09:18.1355778-08:00",
+        "applyCompleteTime": "2019-02-27T10:09:18.1355778-08:00",
+        "applyStatus": "sample string 6",
+        "applyStatusCode": 7,
+        "totalFileRecords": 1,
+        "fileRecordsPassed": 1,
+        "fileRecordsFailed": 1,
+        "recordContainsInFile": 1,
+        "checkSumValue": "sample string 8"
+      },
+      {
+        "payloadFileName": "sample string 1",
+        "fileOrder": 2,
+        "action": "sample string 3",
+        "dataType": "sample string 4",
+        "applyDateTime": "2019-02-27T10:09:18.1355778-08:00",
+        "applyCompleteTime": "2019-02-27T10:09:18.1355778-08:00",
+        "applyStatus": "sample string 6",
+        "applyStatusCode": 7,
+        "totalFileRecords": 1,
+        "fileRecordsPassed": 1,
+        "fileRecordsFailed": 1,
+        "recordContainsInFile": 1,
+        "checkSumValue": "sample string 8"
+      }
+    ],
+    "version": "sample string 11",
+    "applyStartTime": "2019-02-27T10:09:18.1512008-08:00",
+    "applyCompleteTime": "2019-02-27T10:09:18.1512008-08:00",
+    "totalNumberOfFiles": 1,
+    "numberOfFilesPassed": 1,
+    "numberOfFilesFailed": 1
+  },
+  {
+    "batchCode": "sample string 1",
+    "tenantId": 2,
+    "orgId": 3,
+    "userName": "sample string 4",
+    "userCulture": "sample string 5",
+    "orgCulture": "sample string 6",
+    "payloadData": "sample string 7",
+    "applyStatus": 8,
+    "createDate": "2019-02-27T10:09:18.1355778-08:00",
+    "lastChangedTime": "2019-02-27T10:09:18.1355778-08:00",
+    "fileDetails": [
+      {
+        "payloadFileName": "sample string 1",
+        "fileOrder": 2,
+        "action": "sample string 3",
+        "dataType": "sample string 4",
+        "applyDateTime": "2019-02-27T10:09:18.1355778-08:00",
+        "applyCompleteTime": "2019-02-27T10:09:18.1355778-08:00",
+        "applyStatus": "sample string 6",
+        "applyStatusCode": 7,
+        "totalFileRecords": 1,
+        "fileRecordsPassed": 1,
+        "fileRecordsFailed": 1,
+        "recordContainsInFile": 1,
+        "checkSumValue": "sample string 8"
+      },
+      {
+        "payloadFileName": "sample string 1",
+        "fileOrder": 2,
+        "action": "sample string 3",
+        "dataType": "sample string 4",
+        "applyDateTime": "2019-02-27T10:09:18.1355778-08:00",
+        "applyCompleteTime": "2019-02-27T10:09:18.1355778-08:00",
+        "applyStatus": "sample string 6",
+        "applyStatusCode": 7,
+        "totalFileRecords": 1,
+        "fileRecordsPassed": 1,
+        "fileRecordsFailed": 1,
+        "recordContainsInFile": 1,
+        "checkSumValue": "sample string 8"
+      }
+    ],
+    "version": "sample string 11",
+    "applyStartTime": "2019-02-27T10:09:18.1512008-08:00",
+    "applyCompleteTime": "2019-02-27T10:09:18.1512008-08:00",
+    "totalNumberOfFiles": 1,
+    "numberOfFilesPassed": 1,
+    "numberOfFilesFailed": 1
+  }
+]</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p> <!-- This is the image for the 'Back to Top of Topic' button with an href link to the top of the page, indicated by the # sign. Notice the style class used is 'go-to-top', which is defined in the master style sheet .css file. --></p>
+        <p><a class="go-to-top" href="#" title="Back to top" alt="Back to top"><img src="../../../resources/images/backtotopchevron.svg" width="20" height="15" color="white" /></a>
+        </p>
+        <p>
+            <!-- This is the solution to include the embedded Google fonts into the HTML output. Ref. Flare online documentation. -->
+        </p>
+        <!-- This is the solution to include the embedded Google font files from the Flare source folders into the HTML output. The words below are links to the font files. They’re invisible and won’t appear on the page. Ref. Flare online documentation. -->
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-regular.ttf">Include Raleway-Regular font file when HTML output is generated</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-bold.ttf">Include Raleway-Bold font file</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-italic.ttf">Include Raleway-Italic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-bolditalic.ttf">Include Raleway-BoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-medium.ttf">Include Raleway-Medium</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-mediumitalic.ttf">Include Raleway-MediumItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-semibold.ttf">Raleway-SemiBold </a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-semibolditalic.ttf">Raleway-SemiBoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-light.ttf">Raleway-Light</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-lightitalic.ttf">Raleway-LightItalic </a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-regular.ttf">OpenSans-Regular</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-bold.ttf">OpenSans-Bold</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-italic.ttf">OpenSans-Italic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-bolditalic.ttf">OpenSans-BoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-bold.ttf">OpenSansCondensed-Bold</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-light.ttf">OpenSansCondensed-Light.ttf</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-lightitalic.ttf">OpenSansCondensed-LightItalic.ttf</a>
+        </p>
+    </body>
+</html>

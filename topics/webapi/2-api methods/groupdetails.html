@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Web API Reference" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>GroupDetails</title>
+        <!-- Call Return to Top of Topic button script -->
+        <!-- Call Google Analytics script -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../resources/tablestyles/ip-1_breaks.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../../../resources/stylesheets/ip-master.css" rel="stylesheet" type="text/css" />
+        <script src="../../../resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapGlobal.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapDom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapUtilities.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapXhr.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTextEffects.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSlideshow.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMessageBus.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMessageBus.CrossFrame.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapDefault.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMediaQueries.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapAccessibility.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapHelpSystem.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapAliasFile.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopicFeedback.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapFeedbackHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSkinHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.Breadcrumbs.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.MiniToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.SideMenu.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapIndex.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapGlossary.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapParser.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSearch.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopic.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapFeedback.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSearchHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapNavigateTopics.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopicElements.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTriPane.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/scripts/returntotop.js">
+        </script>
+        <script src="../../../resources/scripts/googleanalytics.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.html#topics/webapi/2-api methods/groupdetails.html">Open topic with navigation</a>
+        </p>
+        <p />
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="5" data-mc-toc="True">
+            </div>
+        </div>
+        <div role="main" id="mc-main-content">
+            <h2>GroupDetails</h2>
+            <p class="Body">The GroupDetails API can be used to manage product group information on the server.</p>
+            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                            <p class="CellHead">Method</p>
+                        </th>
+                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                            <p class="CellHead">Request URL</p>
+                        </th>
+                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                            <p class="CellHead">Description</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">DELETE</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/GroupDetails</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Deletes the specified product group.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">PUT</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p><span class="ProgramText">api/v7/GroupDetails</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Adds or updates the information of the specified product group.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">POST</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/GroupDetails</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Adds a product group.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                            <p><span class="ProgramText">api/v7/GroupDetails/{groupCode}</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                            <p class="CellBody">Searches for a product group using its group code. This request retrieves information on the specified product group.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/GroupDetails</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Searches all group detail records from the database. </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/GroupDetails/{groupCode}/Products</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Searches all products which belong to a specific group.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/GroupDetails/Products</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                            <p class="CellBody">Searches all products which belong to a group.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>HTTP&#160;request details</h3>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />DELETE api/v7/GroupDetails</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>Tables impacted</h4>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">GroupProduct</span>
+                            </p>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">GroupHierarchy</span>
+                            </p>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">GroupAttribute</span>
+                            </p>
+                            <h4>URI parameters</h4>
+                            <p class="Body">None.</p>
+                            <h4>Body parameters</h4>
+                            <p class="Body">The following table describes the parameters available for the <span class="ProgramText">DELETE api/v7/GroupDetails</span> request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p>Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupcode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Specifies the group code of the product group to be deleted. Length: 1 – 24.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">productList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Lists the codes of the products under the product group to be deleted.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><u><i>GroupProductDetail</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Lists the hierarchy codes under the product group to be deleted.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><u><i>GroupHierarchyDetail</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">attributeList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Lists the attribute codes under the product group to be deleted.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><u><i>GroupAttributeDetail</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Specifies the date when the audit information of the product group was last modified.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">date</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON request format</h4><pre>{
+  "groupCode": "sample string 1",
+  "productList": [
+    {
+      "productCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "customerAuditDate": "2019-02-27T11:07:43.0799322-08:00"
+    },
+    {
+      "productCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "customerAuditDate": "2019-02-27T11:07:43.0799322-08:00"
+    }
+  ],
+  "hierarchyList": [
+    {
+      "hierarchyCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "customerAuditDate": "2019-02-27T11:07:43.0799322-08:00"
+    },
+    {
+      "hierarchyCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "customerAuditDate": "2019-02-27T11:07:43.0799322-08:00"
+    }
+  ],
+  "attributeList": [
+    {
+      "name": "sample string 1",
+      "value": "sample string 2",
+      "customerAuditDate": "2019-02-27T11:07:43.0799322-08:00"
+    },
+    {
+      "name": "sample string 1",
+      "value": "sample string 2",
+      "customerAuditDate": "2019-02-27T11:07:43.0799322-08:00"
+    }
+  ],
+  "customerAuditDate": "2019-02-27T11:07:43.0799322-08:00"
+}</pre>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The API response indicates the success or failure status of the <span class="ProgramText">DELETE api/v7/GroupDetails</span> request. The following table describes the information contained in the API response.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Version</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Content</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">StatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ReasonPhrase</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Headers</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">RequestMessage</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">IsSuccessStatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />PUT api/v7/GroupDetails</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>Tables impacted</h4>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">GroupProduct</span>
+                            </p>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">GroupHierarchy</span>
+                            </p>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">GroupAttribute</span>
+                            </p>
+                            <h4>URI parameters</h4>
+                            <p class="Body">None.</p>
+                            <h4>Body parameters</h4>
+                            <p class="Body">The following table describes the parameters available for the <span class="ProgramText">PUT api/v7/GroupDetails</span> request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p>Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupcode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Specifies the group code of the product group to be updated or added. Length: 1 – 24.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">productList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Lists the codes of the products under the product group to be updated or added.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><u><i>GroupProductDetail</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Lists the hierarchy codes under the product group to be updated or added.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><u><i>GroupHierarchyDetail</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">attributeList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Lists the attribute codes under the product group to be updated or added.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><u><i>GroupAttributeDetail</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Specifies the date when the audit information of the product group was last modified.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">date</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON&#160;request format</h4><pre>{
+  "groupCode": "sample string 1",
+  "productList": [
+    {
+      "productCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "customerAuditDate": "2019-02-27T11:09:40.080214-08:00"
+    },
+    {
+      "productCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "customerAuditDate": "2019-02-27T11:09:40.080214-08:00"
+    }
+  ],
+  "hierarchyList": [
+    {
+      "hierarchyCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "customerAuditDate": "2019-02-27T11:09:40.080214-08:00"
+    },
+    {
+      "hierarchyCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "customerAuditDate": "2019-02-27T11:09:40.080214-08:00"
+    }
+  ],
+  "attributeList": [
+    {
+      "name": "sample string 1",
+      "value": "sample string 2",
+      "customerAuditDate": "2019-02-27T11:09:40.080214-08:00"
+    },
+    {
+      "name": "sample string 1",
+      "value": "sample string 2",
+      "customerAuditDate": "2019-02-27T11:09:40.080214-08:00"
+    }
+  ],
+  "customerAuditDate": "2019-02-27T11:09:40.080214-08:00"
+}</pre>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The API&#160;response indicates the success or failure of the <span class="ProgramText">PUT api/v7/GroupDetails</span> request. The following table describes the information contained in the API response.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Version</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Content</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">StatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ReasonPhrase</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Headers</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">RequestMessage</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">IsSuccessStatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />POST api/v7/GroupDetails</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>Tables impacted</h4>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">GroupProduct</span>
+                            </p>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">GroupHierarchy</span>
+                            </p>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">GroupAttribute</span>
+                            </p>
+                            <h4>URI parameters</h4>
+                            <p class="Body">None.</p>
+                            <h4>Body parameters</h4>
+                            <p class="Body">The following table describes the parameters available for the <span class="ProgramText">POST&#160;api/v7/GroupDetails </span>request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p>Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupcode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Specifies the group code of the product group to be added. Length: 1 – 24.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">productList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Lists the codes of the products under the product group to be added.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><u><i>GroupProductDetail</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Lists the hierarchy codes under the product group to be added.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><u><i>GroupHierarchyDetail</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">attributeList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Lists the attribute codes under the product group to be added.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><u><i>GroupAttributeDetail</i></u>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Specifies the date when the audit information of the product group was last modified.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">date</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p>No</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON&#160;request format</h4><pre>{
+  "groupCode": "sample string 1",
+  "productList": [
+    {
+      "productCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "customerAuditDate": "2019-02-27T12:31:21.9491199-08:00"
+    },
+    {
+      "productCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "customerAuditDate": "2019-02-27T12:31:21.9491199-08:00"
+    }
+  ],
+  "hierarchyList": [
+    {
+      "hierarchyCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "customerAuditDate": "2019-02-27T12:31:21.9491199-08:00"
+    },
+    {
+      "hierarchyCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "customerAuditDate": "2019-02-27T12:31:21.9491199-08:00"
+    }
+  ],
+  "attributeList": [
+    {
+      "name": "sample string 1",
+      "value": "sample string 2",
+      "customerAuditDate": "2019-02-27T12:31:21.9491199-08:00"
+    },
+    {
+      "name": "sample string 1",
+      "value": "sample string 2",
+      "customerAuditDate": "2019-02-27T12:31:21.9491199-08:00"
+    }
+  ],
+  "customerAuditDate": "2019-02-27T12:31:21.9491199-08:00"
+}
+application/xml, text/xml
+Sample:
+&lt;GroupDetail xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;groupCode&gt;sample string 1&lt;/groupCode&gt;
+  &lt;productList&gt;
+    &lt;GroupProductDetail&gt;
+      &lt;productCode&gt;sample string 1&lt;/productCode&gt;
+      &lt;suggest&gt;true&lt;/suggest&gt;
+      &lt;quantity&gt;1&lt;/quantity&gt;
+      &lt;order&gt;1&lt;/order&gt;
+      &lt;customerAuditDate&gt;2019-02-27T12:31:21.9491199-08:00&lt;/customerAuditDate&gt;
+    &lt;/GroupProductDetail&gt;
+    &lt;GroupProductDetail&gt;
+      &lt;productCode&gt;sample string 1&lt;/productCode&gt;
+      &lt;suggest&gt;true&lt;/suggest&gt;
+      &lt;quantity&gt;1&lt;/quantity&gt;
+      &lt;order&gt;1&lt;/order&gt;
+      &lt;customerAuditDate&gt;2019-02-27T12:31:21.9491199-08:00&lt;/customerAuditDate&gt;
+    &lt;/GroupProductDetail&gt;
+  &lt;/productList&gt;
+  &lt;hierarchyList&gt;
+    &lt;GroupHierarchyDetail&gt;
+      &lt;hierarchyCode&gt;sample string 1&lt;/hierarchyCode&gt;
+      &lt;suggest&gt;true&lt;/suggest&gt;
+      &lt;quantity&gt;1&lt;/quantity&gt;
+      &lt;customerAuditDate&gt;2019-02-27T12:31:21.9491199-08:00&lt;/customerAuditDate&gt;
+    &lt;/GroupHierarchyDetail&gt;
+    &lt;GroupHierarchyDetail&gt;
+      &lt;hierarchyCode&gt;sample string 1&lt;/hierarchyCode&gt;
+      &lt;suggest&gt;true&lt;/suggest&gt;
+      &lt;quantity&gt;1&lt;/quantity&gt;
+      &lt;customerAuditDate&gt;2019-02-27T12:31:21.9491199-08:00&lt;/customerAuditDate&gt;
+    &lt;/GroupHierarchyDetail&gt;
+  &lt;/hierarchyList&gt;
+  &lt;attributeList&gt;
+    &lt;GroupAttributeDetail&gt;
+      &lt;name&gt;sample string 1&lt;/name&gt;
+      &lt;value&gt;sample string 2&lt;/value&gt;
+      &lt;customerAuditDate&gt;2019-02-27T12:31:21.9491199-08:00&lt;/customerAuditDate&gt;
+    &lt;/GroupAttributeDetail&gt;
+    &lt;GroupAttributeDetail&gt;
+      &lt;name&gt;sample string 1&lt;/name&gt;
+      &lt;value&gt;sample string 2&lt;/value&gt;
+      &lt;customerAuditDate&gt;2019-02-27T12:31:21.9491199-08:00&lt;/customerAuditDate&gt;
+    &lt;/GroupAttributeDetail&gt;
+  &lt;/attributeList&gt;
+  &lt;customerAuditDate&gt;2019-02-27T12:31:21.9491199-08:00&lt;/customerAuditDate&gt;
+&lt;/GroupDetail&gt;</pre>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The API response indicates the success or failure status of the <span class="ProgramText">POST api/v7/GroupDetails</span> request. The following table describes the information contained in the API response.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Version</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Content</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">StatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ReasonPhrase</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Headers</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">RequestMessage</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">IsSuccessStatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/GroupDetails/{groupCode}</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameter</h4>
+                            <p class="Body">The following table describes the parameter forming the HTTP request URL.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p>Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Defines the group code of the product group to be searched.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p>Yes</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The following table describes the information retrieved by the <span class="ProgramText">GET api/v7/GroupDetails/{groupCode}</span> request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the group code of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupName</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the name of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">productCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the code of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupTypeCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Specifies the type code of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupTypeName</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the type name of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">suggest</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Determines if the product group contains an auto-suggest flag. </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">order</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the order of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">crossReferenceKeyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Specifies the cross reference key code of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">colorDescription</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the color details of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">sizeDescription</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the size details of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">sizePattern</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the size pattern details of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">filePath</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Specifies the path of the data file containg the details of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">imageName</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the path of the image file used to represent the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">productCulture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the culture details of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">shortDescription</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the text description of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">specialComments</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines additional information of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">unitPrice</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the unit price of the product group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Specifies the date when the audit information of the product group was last modified.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">culture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Specifies the culture code of the product group. </p>
+                                            <p class="Cell-Example" data-mc-autonum="Example: "><span class="autonumber"><span class="Bold">Example: </span></span>The following are sample values for this parameter:</p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">en-US</span>
+                                            </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">fr</span>
+                                            </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">fr-CA</span>
+                                            </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">es</span>
+                                            </p>
+                                            <p class="Cell-BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="Cell-BulletIndent">•</span></span><span class="ProgramText">ja-JP</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON&#160;response format</h4><pre>
+[
+  {
+    "groupCode": "sample string 1",
+    "groupName": "sample string 2",
+    "productCode": "sample string 3",
+    "groupTypeCode": "sample string 4",
+    "groupTypeName": "sample string 5",
+    "suggest": true,
+    "quantity": 1,
+    "order": 1,
+    "crossReferenceKeyCode": "sample string 6",
+    "colorDescription": "sample string 7",
+    "sizeDescription": "sample string 8",
+    "sizePattern": "sample string 9",
+    "filePath": "sample string 10",
+    "imageName": "sample string 11",
+    "productCulture": "sample string 12",
+    "shortDescription": "sample string 13",
+    "specialComments": "sample string 14",
+    "unitPrice": 1.0,
+    "customerAuditDate": "2019-02-27T12:37:44.7154915-08:00",
+    "culture": "sample string 15",
+    "description": "sample string 16"
+  },
+  {
+    "groupCode": "sample string 1",
+    "groupName": "sample string 2",
+    "productCode": "sample string 3",
+    "groupTypeCode": "sample string 4",
+    "groupTypeName": "sample string 5",
+    "suggest": true,
+    "quantity": 1,
+    "order": 1,
+    "crossReferenceKeyCode": "sample string 6",
+    "colorDescription": "sample string 7",
+    "sizeDescription": "sample string 8",
+    "sizePattern": "sample string 9",
+    "filePath": "sample string 10",
+    "imageName": "sample string 11",
+    "productCulture": "sample string 12",
+    "shortDescription": "sample string 13",
+    "specialComments": "sample string 14",
+    "unitPrice": 1.0,
+    "customerAuditDate": "2019-02-27T12:37:44.7154915-08:00",
+    "culture": "sample string 15",
+    "description": "sample string 16"
+  }
+]</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/GroupDetails</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameters</h4>
+                            <p class="Body">None.</p>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">None.</p>
+                            <h4>Sample JSON response format</h4><pre>{
+  "sample string 1": [
+    {
+      "groupCode": "sample string 1",
+      "groupName": "sample string 2",
+      "productCode": "sample string 3",
+      "groupTypeCode": "sample string 4",
+      "groupTypeName": "sample string 5",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "crossReferenceKeyCode": "sample string 6",
+      "colorDescription": "sample string 7",
+      "sizeDescription": "sample string 8",
+      "sizePattern": "sample string 9",
+      "filePath": "sample string 10",
+      "imageName": "sample string 11",
+      "productCulture": "sample string 12",
+      "shortDescription": "sample string 13",
+      "specialComments": "sample string 14",
+      "unitPrice": 1.0,
+      "customerAuditDate": "2018-01-01T00:00:00",
+      "productOrgFeatures": [
+        {
+          "featureKey": "sample string 1",
+          "featureData": {}
+        },
+        {
+          "featureKey": "sample string 1",
+          "featureData": {}
+        }
+      ],
+      "culture": "sample string 15",
+      "description": "sample string 16"
+    },
+    {
+      "groupCode": "sample string 1",
+      "groupName": "sample string 2",
+      "productCode": "sample string 3",
+      "groupTypeCode": "sample string 4",
+      "groupTypeName": "sample string 5",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "crossReferenceKeyCode": "sample string 6",
+      "colorDescription": "sample string 7",
+      "sizeDescription": "sample string 8",
+      "sizePattern": "sample string 9",
+      "filePath": "sample string 10",
+      "imageName": "sample string 11",
+      "productCulture": "sample string 12",
+      "shortDescription": "sample string 13",
+      "specialComments": "sample string 14",
+      "unitPrice": 1.0,
+      "customerAuditDate": "2018-01-01T00:00:00",
+      "productOrgFeatures": [
+        {
+          "featureKey": "sample string 1",
+          "featureData": {}
+        },
+        {
+          "featureKey": "sample string 1",
+          "featureData": {}
+        }
+      ],
+      "culture": "sample string 15",
+      "description": "sample string 16"
+    }
+  ],
+  "sample string 2": [
+    {
+      "groupCode": "sample string 1",
+      "groupName": "sample string 2",
+      "productCode": "sample string 3",
+      "groupTypeCode": "sample string 4",
+      "groupTypeName": "sample string 5",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "crossReferenceKeyCode": "sample string 6",
+      "colorDescription": "sample string 7",
+      "sizeDescription": "sample string 8",
+      "sizePattern": "sample string 9",
+      "filePath": "sample string 10",
+      "imageName": "sample string 11",
+      "productCulture": "sample string 12",
+      "shortDescription": "sample string 13",
+      "specialComments": "sample string 14",
+      "unitPrice": 1.0,
+      "customerAuditDate": "2018-01-01T00:00:00",
+      "productOrgFeatures": [
+        {
+          "featureKey": "sample string 1",
+          "featureData": {}
+        },
+        {
+          "featureKey": "sample string 1",
+          "featureData": {}
+        }
+      ],
+      "culture": "sample string 15",
+      "description": "sample string 16"
+    },
+    {
+      "groupCode": "sample string 1",
+      "groupName": "sample string 2",
+      "productCode": "sample string 3",
+      "groupTypeCode": "sample string 4",
+      "groupTypeName": "sample string 5",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "crossReferenceKeyCode": "sample string 6",
+      "colorDescription": "sample string 7",
+      "sizeDescription": "sample string 8",
+      "sizePattern": "sample string 9",
+      "filePath": "sample string 10",
+      "imageName": "sample string 11",
+      "productCulture": "sample string 12",
+      "shortDescription": "sample string 13",
+      "specialComments": "sample string 14",
+      "unitPrice": 1.0,
+      "customerAuditDate": "2018-01-01T00:00:00",
+      "productOrgFeatures": [
+        {
+          "featureKey": "sample string 1",
+          "featureData": {}
+        },
+        {
+          "featureKey": "sample string 1",
+          "featureData": {}
+        }
+      ],
+      "culture": "sample string 15",
+      "description": "sample string 16"
+    }
+  ]
+}</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/GroupDetails/{groupCode}/Products</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameter </h4>
+                            <p class="Body">The following table describes the parameter forming the HTTP request URL.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p>Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Defines the group code of the group record.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p>Yes</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The response information contains an acknowledgment and the requested group information.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the unique group code used to identify the group.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">groupType</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the group type code of the group. </p>
+                                            <p class="Cell-Example" data-mc-autonum="Example: "><span class="autonumber"><span class="Bold">Example: </span></span>AMS_Group</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">productList</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Defines the list of product codes for a product–based group. </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <h4>Sample JSON response format</h4><pre>{
+  "groupCode": "sample string 1",
+  "groupType": "sample string 2",
+  "productList": [
+    {
+      "productCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "customerAuditDate": "2018-01-01T00:00:00"
+    },
+    {
+      "productCode": "sample string 1",
+      "suggest": true,
+      "quantity": 1,
+      "order": 1,
+      "customerAuditDate": "2018-01-01T00:00:00"
+    }
+  ]
+}</pre>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/GroupDetails/Products</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameters</h4>
+                            <p class="Body">None.</p>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">The response information is used to update the details of a product list in a group.</p>
+                        </div>
+                    </div>
+                    <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                        <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                        <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                        <thead>
+                            <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                    <p class="CellHead">Name</p>
+                                </th>
+                                <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                    <p class="CellHead">Description</p>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                    <p class="CellBody"><span class="ProgramText">groupCode</span>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                    <p class="CellBody">Defines the unique group code used to identify the group</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                    <p class="CellBody"><span class="ProgramText">groupType</span>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                    <p class="CellBody">Defines the group type code of the group</p>
+                                    <p class="Cell-Example" data-mc-autonum="Example: "><span class="autonumber"><span class="Bold">Example: </span></span>AMS_Group</p>
+                                </td>
+                            </tr>
+                            <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                    <p class="CellBody"><span class="ProgramText">productList</span>
+                                    </p>
+                                </td>
+                                <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                    <p class="CellBody">Defines the list of product codes for a product–based group. </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <h4>Sample JSON response format</h4><pre>[
+  {
+    "groupCode": "sample string 1",
+    "groupType": "sample string 2",
+    "productList": [
+      {
+        "productCode": "sample string 1",
+        "suggest": true,
+        "quantity": 1,
+        "order": 1,
+        "customerAuditDate": "2018-01-01T00:00:00"
+      },
+      {
+        "productCode": "sample string 1",
+        "suggest": true,
+        "quantity": 1,
+        "order": 1,
+        "customerAuditDate": "2018-01-01T00:00:00"
+      }
+    ]
+  },
+  {
+    "groupCode": "sample string 1",
+    "groupType": "sample string 2",
+    "productList": [
+      {
+        "productCode": "sample string 1",
+        "suggest": true,
+        "quantity": 1,
+        "order": 1,
+        "customerAuditDate": "2018-01-01T00:00:00"
+      },
+      {
+        "productCode": "sample string 1",
+        "suggest": true,
+        "quantity": 1,
+        "order": 1,
+        "customerAuditDate": "2018-01-01T00:00:00"
+      }
+    ]
+  }
+]</pre>
+                </div>
+            </div>
+        </div>
+        <p> <!-- This is the image for the 'Back to Top of Topic' button with an href link to the top of the page, indicated by the # sign. Notice the style class used is 'go-to-top', which is defined in the master style sheet .css file. --></p>
+        <p><a class="go-to-top" href="#" title="Back to top" alt="Back to top"><img src="../../../resources/images/backtotopchevron.svg" width="20" height="15" color="white" /></a>
+        </p>
+        <p>
+            <!-- This is the solution to include the embedded Google fonts into the HTML output. Ref. Flare online documentation. -->
+        </p>
+        <!-- This is the solution to include the embedded Google font files from the Flare source folders into the HTML output. The words below are links to the font files. They’re invisible and won’t appear on the page. Ref. Flare online documentation. -->
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-regular.ttf">Include Raleway-Regular font file when HTML output is generated</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-bold.ttf">Include Raleway-Bold font file</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-italic.ttf">Include Raleway-Italic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-bolditalic.ttf">Include Raleway-BoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-medium.ttf">Include Raleway-Medium</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-mediumitalic.ttf">Include Raleway-MediumItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-semibold.ttf">Raleway-SemiBold </a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-semibolditalic.ttf">Raleway-SemiBoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-light.ttf">Raleway-Light</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-lightitalic.ttf">Raleway-LightItalic </a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-regular.ttf">OpenSans-Regular</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-bold.ttf">OpenSans-Bold</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-italic.ttf">OpenSans-Italic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-bolditalic.ttf">OpenSans-BoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-bold.ttf">OpenSansCondensed-Bold</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-light.ttf">OpenSansCondensed-Light.ttf</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-lightitalic.ttf">OpenSansCondensed-LightItalic.ttf</a>
+        </p>
+    </body>
+</html>

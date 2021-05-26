@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Preparing to Install|Understanding Active Directory Concepts in Advanced Store" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Creating a Group Account in Active Directory</title>
+        <!-- Call Return to Top of Topic button script -->
+        <!-- Call Google Analytics script -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../resources/stylesheets/ip-master.css" rel="stylesheet" type="text/css" />
+        <script src="../../../resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapGlobal.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapDom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapUtilities.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapXhr.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTextEffects.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSlideshow.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMessageBus.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMessageBus.CrossFrame.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapDefault.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMediaQueries.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapAccessibility.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapHelpSystem.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapAliasFile.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopicFeedback.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapFeedbackHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSkinHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.Breadcrumbs.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.MiniToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.SideMenu.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapIndex.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapGlossary.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapParser.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSearch.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopic.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapFeedback.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSearchHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapNavigateTopics.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopicElements.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTriPane.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/scripts/returntotop.js">
+        </script>
+        <script src="../../../resources/scripts/googleanalytics.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.html#topics/inst1_preparing/3-adconcepts/2-usergroup.html">Open topic with navigation</a>
+        </p>
+        <p />
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="5" data-mc-toc="True">
+            </div>
+        </div>
+        <div role="main" id="mc-main-content">
+            <h1>Creating a Group Account in Active Directory</h1>
+            <p class="Body">The Windows Active Directory Users and Computers console is used to create a security group to contain the computer accounts for the computers that are to receive a set of Group Policy settings. This task is completed on the retailer’s Active Directory server. </p>
+            <p class="Note" data-mc-autonum="&lt;b&gt;Note: &#160;&lt;/b&gt;"><span class="autonumber"><span><b>Note: &#160;</b></span></span>To complete this procedure, you must be a member of the Domain Administrators group, or otherwise be delegated permissions to create new group accounts.</p>
+            <h2>Adding a new membership group</h2>
+            <p class="Body">To add a new membership group in Active Directory, follow these steps:</p>
+            <p class="NumberedItem-First" data-mc-autonum="1."><span class="autonumber"><span class="NumberIndent">1.</span></span>Select <span class="Bold">Start</span><span style="font-family: 'Calibri'" class="Bold">→</span><span class="Bold">Run</span>. The application displays the Run dialog box.</p>
+            <p class="NumberedItem" data-mc-autonum="2."><span class="autonumber"><span class="NumberIndent">2.</span></span>In the Open field, type <span class="Bold">dsa.msc</span>, and select <span class="Bold">OK</span>. The application displays the Active Directory Users and Computers window.</p>
+            <p class="NumberedItem" data-mc-autonum="3."><span class="autonumber"><span class="NumberIndent">3.</span></span>From the Active Directory Users and Computers window, expand the domain node.</p>
+            <p class="Note1" data-mc-autonum="&lt;b&gt;Note: &#160;&lt;/b&gt;"><span class="autonumber"><span><b>Note: &#160;</b></span></span>The domain node name is dependent on the fully-qualified domain name (FQDN) set up during the Active Directory installation. In this document, the <span class="ProgramText">weboffice.local</span> domain is used.</p>
+            <p class="NumberedItem" data-mc-autonum="4."><span class="autonumber"><span class="NumberIndent">4.</span></span>Select the <span class="Bold">Users</span> node.</p>
+            <p class="NumberedItem" data-mc-autonum="5."><span class="autonumber"><span class="NumberIndent">5.</span></span>Select the <span class="Bold">Action</span> menu.</p>
+            <p class="NumberedItem" data-mc-autonum="6."><span class="autonumber"><span class="NumberIndent">6.</span></span>Expand the <span class="Bold">New</span> menu item.</p>
+            <p class="NumberedItem" data-mc-autonum="7."><span class="autonumber"><span class="NumberIndent">7.</span></span>Select <span class="Bold">Group</span>. The application opens the New Object–Group window.</p>
+            <p class="NumberedItem" data-mc-autonum="8."><span class="autonumber"><span class="NumberIndent">8.</span></span>Provide a group name. For example, <i>Managers_111</i>.</p>
+            <p class="NumberedItem" data-mc-autonum="9."><span class="autonumber"><span class="NumberIndent">9.</span></span>Select <span class="Bold">Domain local</span> as the group scope.</p>
+            <p class="NumberedItem" data-mc-autonum="10."><span class="autonumber"><span class="NumberIndent">10.</span></span>Select <span class="Bold">Security</span> as the group type.</p>
+            <p class="NumberedItem" data-mc-autonum="11."><span class="autonumber"><span class="NumberIndent">11.</span></span>Select <span class="Bold">OK</span>.</p>
+            <p class="NumberedItem" data-mc-autonum="12."><span class="autonumber"><span class="NumberIndent">12.</span></span>Repeat the steps above to create more groups, as necessary.</p>
+            <h2>Adding a user to a group</h2>
+            <p class="Body">To add a user to a group, follow these steps:</p>
+            <p class="NumberedItem-First" data-mc-autonum="1."><span class="autonumber"><span class="NumberIndent">1.</span></span>From the Active Directory Users and Computers window, expand the domain node.</p>
+            <p class="Note1" data-mc-autonum="&lt;b&gt;Note: &#160;&lt;/b&gt;"><span class="autonumber"><span><b>Note: &#160;</b></span></span>The domain node name is dependent on the FQDN set during the Active Directory installation. In this document, the <span class="ProgramText">weboffice.local</span> domain is used.</p>
+            <p class="NumberedItem" data-mc-autonum="2."><span class="autonumber"><span class="NumberIndent">2.</span></span>Select the <span class="Bold">Users</span> node.</p>
+            <p class="NumberedItem" data-mc-autonum="3."><span class="autonumber"><span class="NumberIndent">3.</span></span>Right-click the group name. For example, <i>Managers_111</i> group.</p>
+            <p class="NumberedItem" data-mc-autonum="4."><span class="autonumber"><span class="NumberIndent">4.</span></span>Select <span class="Bold">Properties</span>. The application opens the properties window.</p>
+            <p class="NumberedItem" data-mc-autonum="5."><span class="autonumber"><span class="NumberIndent">5.</span></span>From the <span class="Bold">Members</span> tab, select <span class="Bold">Add</span>. The application opens the Select Users Contacts, Computers, Service Accounts, or Groups window.</p>
+            <p class="NumberedItem" data-mc-autonum="6."><span class="autonumber"><span class="NumberIndent">6.</span></span>From the window, enter the user login name. For example, <i>102</i>.</p>
+            <p class="NumberedItem" data-mc-autonum="7."><span class="autonumber"><span class="NumberIndent">7.</span></span>Select <span class="Bold">Check Names</span>.</p>
+            <p class="NumberedItem" data-mc-autonum="8."><span class="autonumber"><span class="NumberIndent">8.</span></span>Once the name is resolved, the user is now added to the Group Members list.</p>
+            <p class="NumberedItem" data-mc-autonum="9."><span class="autonumber"><span class="NumberIndent">9.</span></span>Repeat the steps above to add more users to the group.</p>
+        </div>
+        <p> <!-- This is the image for the 'Back to Top of Topic' button with an href link to the top of the page, indicated by the # sign. Notice the style class used is 'go-to-top', which is defined in the master style sheet .css file. --></p>
+        <p><a class="go-to-top" href="#" title="Back to top" alt="Back to top"><img src="../../../resources/images/backtotopchevron.svg" width="20" height="15" color="white" /></a>
+        </p>
+        <p>
+            <!-- This is the solution to include the embedded Google fonts into the HTML output. Ref. Flare online documentation. -->
+        </p>
+        <!-- This is the solution to include the embedded Google font files from the Flare source folders into the HTML output. The words below are links to the font files. They’re invisible and won’t appear on the page. Ref. Flare online documentation. -->
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-regular.ttf">Include Raleway-Regular font file when HTML output is generated</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-bold.ttf">Include Raleway-Bold font file</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-italic.ttf">Include Raleway-Italic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-bolditalic.ttf">Include Raleway-BoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-medium.ttf">Include Raleway-Medium</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-mediumitalic.ttf">Include Raleway-MediumItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-semibold.ttf">Raleway-SemiBold </a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-semibolditalic.ttf">Raleway-SemiBoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-light.ttf">Raleway-Light</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-lightitalic.ttf">Raleway-LightItalic </a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-regular.ttf">OpenSans-Regular</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-bold.ttf">OpenSans-Bold</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-italic.ttf">OpenSans-Italic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-bolditalic.ttf">OpenSans-BoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-bold.ttf">OpenSansCondensed-Bold</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-light.ttf">OpenSansCondensed-Light.ttf</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-lightitalic.ttf">OpenSansCondensed-LightItalic.ttf</a>
+        </p>
+    </body>
+</html>

@@ -1,0 +1,2008 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-toc-path="Web API Reference" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>Hierarchies</title>
+        <!-- Call Return to Top of Topic button script -->
+        <!-- Call Google Analytics script -->
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../resources/tablestyles/ip-1_breaks.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../../../resources/tablestyles/ip-1_wide-breaks.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <link href="../../../resources/stylesheets/ip-master.css" rel="stylesheet" type="text/css" />
+        <script src="../../../resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/foundation.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapGlobal.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapDom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapUtilities.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapXhr.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTextEffects.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSlideshow.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMessageBus.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMessageBus.CrossFrame.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapDefault.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapMediaQueries.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapAccessibility.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapHelpSystem.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapAliasFile.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopicFeedback.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapFeedbackHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSkinHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.Breadcrumbs.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.MiniToc.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapToc.SideMenu.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapIndex.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapGlossary.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapParser.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSearch.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopic.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapFeedback.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapSearchHelper.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapNavigateTopics.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTopicElements.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/Scripts/MadCapTriPane.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../resources/scripts/returntotop.js">
+        </script>
+        <script src="../../../resources/scripts/googleanalytics.js">
+        </script>
+    </head>
+    <body>
+        <p class="MCWebHelpFramesetLink MCWebHelpFramesetLinkTop"><a href="../../../Default.html#topics/webapi/2-api methods/hierarchies.html">Open topic with navigation</a>
+        </p>
+        <p />
+        <div class="nocontent">
+            <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="5" data-mc-toc="True">
+            </div>
+        </div>
+        <div role="main" id="mc-main-content">
+            <h2>Hierarchies</h2>
+            <p class="Body">The Hierarchies API can be used to manage hierarchy information on the server. </p>
+            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_wide-breaks.css');" class="TableStyle-IP-1_Wide-Breaks" cellspacing="0">
+                <col class="TableStyle-IP-1_Wide-Breaks-Column-Column1" />
+                <col class="TableStyle-IP-1_Wide-Breaks-Column-Column1" />
+                <col class="TableStyle-IP-1_Wide-Breaks-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-IP-1_Wide-Breaks-Head-Header1">
+                        <th class="TableStyle-IP-1_Wide-Breaks-HeadE-Column1-Header1">
+                            <p class="CellHead">Method</p>
+                        </th>
+                        <th class="TableStyle-IP-1_Wide-Breaks-HeadE-Column1-Header1">
+                            <p class="CellHead">Request URL</p>
+                        </th>
+                        <th class="TableStyle-IP-1_Wide-Breaks-HeadD-Column1-Header1">
+                            <p class="CellHead">Description</p>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-IP-1_Wide-Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/Hierarchies</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Receives the list of hierarchies for the current tenant.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Wide-Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">POST</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/Hierarchies</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Adds a new hierarchy.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Wide-Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">PUT</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/Hierarchies</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Adds or updates an existing hierarchy.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Wide-Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyE-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyE-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/Hierarchies/{hierarchyCode}</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyD-Column1-333333">
+                            <p class="CellBody">Receives the hierarchy information for the given hierarchy code.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Wide-Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">DELETE</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/Hierarchies/{hierarchyCode}</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Deletes an existing hierarchy.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Wide-Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/Hierarchies/GetDepartments</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Receives the hierarchy information for all departments.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Wide-Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyH-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/Hierarchies?hierarchyLevelCode={hierarchyLevelCode}</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyG-Column1-333333">
+                            <p class="CellBody">Receives the hierarchy information for the given hierarchy level code.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-IP-1_Wide-Breaks-Body-333333">
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyB-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">GET</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyB-Column1-333333">
+                            <p class="CellBody"><span class="ProgramText">api/v7/Hierarchies?hierarchyParentCode={hierarchyParentCode}</span>
+                            </p>
+                        </td>
+                        <td class="TableStyle-IP-1_Wide-Breaks-BodyA-Column1-333333">
+                            <p class="CellBody">Receives the hierarchy information for the given hierarchy parent code.</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>HTTP&#160;request details</h3>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/Hierarchies</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyLevelCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy level code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">description</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy description.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">culture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the culture for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">parentHierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the parent hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">externalId</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the external hierarchy ID.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxClassCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the tax class code for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxTypeCodes</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the tax type of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">salesCategoryCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the sales category code of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">maxAllowedQuantity</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the maximum sales quantity allowed for any item under this hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ubcRequired</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Indicates whether UBC is required for items sold at hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">nonReturnable</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Indicates whether an item sold by hierarchy is returnable.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Defines the date when the audit information was last modified.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON response format</h4><pre xml:space="preserve">[
+  {
+    "hierarchyCode": "sample string 1",
+    "hierarchyLevelCode": "sample string 2",
+    "description": "sample string 3",
+    "culture": "sample string 4",
+    "parentHierarchyCode": "sample string 5",
+    "externalId": "sample string 6",
+    "taxClassCode": "sample string 7",
+    "taxTypeCodes": [
+      "sample string 1",
+      "sample string 2"
+    ],
+    "salesCategoryCode": "sample string 8",
+    "maxAllowedQuantity": 1,
+    "ubcRequired": true,
+    "nonReturnable": true,
+    "customerAuditDate": "2018-10-01T02:45:55.3624064-07:00"
+  },
+  {
+    "hierarchyCode": "sample string 1",
+    "hierarchyLevelCode": "sample string 2",
+    "description": "sample string 3",
+    "culture": "sample string 4",
+    "parentHierarchyCode": "sample string 5",
+    "externalId": "sample string 6",
+    "taxClassCode": "sample string 7",
+    "taxTypeCodes": [
+      "sample string 1",
+      "sample string 2"
+    ],
+    "salesCategoryCode": "sample string 8",
+    "maxAllowedQuantity": 1,
+    "ubcRequired": true,
+    "nonReturnable": true,
+    "customerAuditDate": "2018-10-01T02:45:55.3624064-07:00"
+  }
+]</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />POST api/v7/Hierarchies</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>Tables impacted</h4>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">Hierarchy</span>
+                            </p>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">HierarchyDesc</span>
+                            </p>
+                            <h4>URI parameters</h4>
+                            <p class="Body">None.</p>
+                            <h4>Body parameters</h4>
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy code. Length: 1 – 14.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyLevelCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy level code. Length: 1 – 24.</p>
+                                            <p class="Cell-Note" data-mc-autonum="Note: "><span class="autonumber"><span class="Bold">Note: </span></span>HierarchyLevelCode is required if it is new hiearchy code.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Conditional</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">description</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy description. Length: 1 – 128.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">culture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Defines the culture for the hierarchy. Length: 1 – 10.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">parentHierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the parent hierarchy code. Length: 1 – 14.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">externalId</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the external hierarchy ID.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxClassCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the tax class code for the hierarchy. Length: 1 – 10.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxTypeCodes</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Defines the tax type of the hierarchy.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">salesCategoryCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the sales category code of the hierarchy. Length: 1 – 20.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">maxAllowedQuantity</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the maximum sales quantity allowed for any item under this hierarchy.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">integer</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ubcRequired</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Indicates whether UBC is required for items sold at hierarchy.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">boolean</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">nonReturnable</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Indicates whether an item sold by hierarchy is returnable.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">boolean</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Defines the date when the audit information was last modified.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">date</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON request format</h4><pre>{
+  "hierarchyCode": "51",
+  "hierarchyLevelCode": "2",
+  "description": "merch hier 1",
+  "culture": "en-US",
+  "parentHierarchyCode": "1",
+  "externalId": "MERCH-1",
+  "taxClassCode": "100200",
+  "salesCategoryCode": "normal",
+  "maxAllowedQuantity": 50,
+  "ubcRequired": false,
+  "nonReturnable": false,
+  "customerAuditDate": "2018-01-01T00:00:00"
+}</pre>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>The response information describes the success or failure of the API request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1">
+                                </col>
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Version</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Content</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">StatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ReasonPhrase</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Headers</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">RequestMessage</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">IsSuccessStatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON response format</h4><pre>{
+  "message": "Record successfully saved.",
+  "propertyName": "Success"
+}</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />PUT api/v7/Hierarchies</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>Tables impacted</h4>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">Hierarchy</span>
+                            </p>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">HierarchyDesc</span>
+                            </p>
+                            <h4>URI parameters</h4>
+                            <p class="Body">None.</p>
+                            <h4>Body parameters</h4>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');margin-left: 0;margin-right: auto;" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333"><span class="ProgramText">hierarchyCode</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy code. Length: 1 – 14.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333"><span class="ProgramText">hierarchyLevelCode</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy level code. Length: 1 – 24.</p>
+                                            <p class="Cell-Note" data-mc-autonum="Note: "><span class="autonumber"><span class="Bold">Note: </span></span>HierarchyLevelCode is required if it is new hiearchy code.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Conditional</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333"><span class="ProgramText">description</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy description. Length: 1 – 128.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333"><span class="ProgramText">culture</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Defines the culture for the hierarchy. Length: 1 – 10.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333"><span class="ProgramText">parentHierarchyCode</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the parent hierarchy code. Length: 1 – 14.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333"><span class="ProgramText">externalId</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the external hierarchy ID.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333"><span class="ProgramText">taxClassCode</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the tax class code for the hierarchy. Length: 1 – 10.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333"><span class="ProgramText">taxTypeCodes</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Defines the tax type of the hierarchy.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333"><span class="ProgramText">salesCategoryCode</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the sales category code of the hierarchy. Length: 1 – 20.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333"><span class="ProgramText">maxAllowedQuantity</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Defines the maximum sales quantity allowed for any item under this hierarchy.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">integer</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333"><span class="ProgramText">ubcRequired</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">Indicates whether UBC is required for items sold at hierarchy.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody">boolean</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333"><span class="ProgramText">nonReturnable</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">Indicates whether an item sold by hierarchy is returnable.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody">boolean</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333"><span class="ProgramText">customerAuditDate</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Defines the date when the audit information was last modified.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">date</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">No</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON request format</h4><pre>{
+  "hierarchyCode": "51",
+  "hierarchyLevelCode": "2",
+  "description": "merch hier 1",
+  "culture": "en-US",
+  "parentHierarchyCode": "1",
+  "externalId": "MERCH-1",
+  "taxClassCode": "100200",
+  "salesCategoryCode": "normal",
+  "maxAllowedQuantity": 50,
+  "ubcRequired": false,
+  "nonReturnable": false,
+  "customerAuditDate": "2018-01-01T00:00:00"
+}</pre>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>The response information describes the success or failure of the API request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1">
+                                </col>
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Version</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Content</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">StatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ReasonPhrase</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Headers</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">RequestMessage</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">IsSuccessStatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON response format</h4><pre>{
+  "message": "Record successfully saved.",
+  "propertyName": "Success"
+}</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/Hierarchies/{hierarchyCode}</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameters</h4>
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyCode</span>&#160;</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy code.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyLevelCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy level code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">description</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy description.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">culture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the culture for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">parentHierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the parent hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">externalId</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the external hierarchy ID.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxClassCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the tax class code for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxTypeCodes</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the tax type of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">salesCategoryCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the sales category code of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">maxAllowedQuantity</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the maximum sales quantity allowed for any item under this hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ubcRequired</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Indicates whether UBC is required for items sold at hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">nonReturnable</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Indicates whether an item sold by hierarchy is returnable.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Defines the date when the audit information was last modified.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON response format</h4><pre xml:space="preserve">{
+  "hierarchyCode": "51",
+  "hierarchyLevelCode": "2",
+  "description": "merch hier 1",
+  "culture": "en-US",
+  "parentHierarchyCode": "1",
+  "externalId": "MERCH-1",
+  "taxClassCode": "100200",
+  "salesCategoryCode": "normal",
+  "maxAllowedQuantity": 50,
+  "ubcRequired": false,
+  "nonReturnable": false,
+  "customerAuditDate": "2018-01-01T00:00:00"
+}</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />DELETE api/v7/Hierarchies/{hierarchyCode}</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>Tables impacted</h4>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">Hierarchy</span>
+                            </p>
+                            <p class="BulletItem" data-mc-autonum="•"><span class="autonumber"><span class="BulletIndent">•</span></span><span class="ProgramText">HierarchyDesc</span>
+                            </p>
+                            <h4>URI parameters</h4>
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333"><span class="ProgramText">hierarchyCode</span>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy code.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p>The response information describes the success or failure of the API request.</p>
+                            <table style="mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1">
+                                </col>
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Version</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Content</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">StatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ReasonPhrase</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">Headers</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">RequestMessage</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">IsSuccessStatusCode</span>
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/Hierarchies/GetDepartments</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyLevelCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy level code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">description</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy description.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">culture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the culture for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">parentHierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the parent hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">externalId</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the external hierarchy ID.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxClassCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the tax class code for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxTypeCodes</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the tax type of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">salesCategoryCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the sales category code of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">maxAllowedQuantity</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the maximum sales quantity allowed for any item under this hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ubcRequired</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Indicates whether UBC is required for items sold at hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">nonReturnable</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Indicates whether an item sold by hierarchy is returnable.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Defines the date when the audit information was last modified.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON response format</h4><pre xml:space="preserve">[
+  {
+    "hierarchyCode": "sample string 1",
+    "hierarchyLevelCode": "sample string 2",
+    "description": "sample string 3",
+    "culture": "sample string 4",
+    "parentHierarchyCode": "sample string 5",
+    "externalId": "sample string 6",
+    "taxClassCode": "sample string 7",
+    "taxTypeCodes": [
+      "sample string 1",
+      "sample string 2"
+    ],
+    "salesCategoryCode": "sample string 8",
+    "maxAllowedQuantity": 1,
+    "ubcRequired": true,
+    "nonReturnable": true,
+    "customerAuditDate": "2018-10-01T04:01:18.2973868-07:00"
+  },
+  {
+    "hierarchyCode": "sample string 1",
+    "hierarchyLevelCode": "sample string 2",
+    "description": "sample string 3",
+    "culture": "sample string 4",
+    "parentHierarchyCode": "sample string 5",
+    "externalId": "sample string 6",
+    "taxClassCode": "sample string 7",
+    "taxTypeCodes": [
+      "sample string 1",
+      "sample string 2"
+    ],
+    "salesCategoryCode": "sample string 8",
+    "maxAllowedQuantity": 1,
+    "ubcRequired": true,
+    "nonReturnable": true,
+    "customerAuditDate": "2018-10-01T04:01:18.2973868-07:00"
+  }
+]</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/Hierarchies?hierarchyLevelCode={hierarchyLevelCode}</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameters</h4>
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyLevelCode</span>&#160;</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy level code.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyLevelCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy level code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">description</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy description.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">culture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the culture for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">parentHierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the parent hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">externalId</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the external hierarchy ID.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxClassCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the tax class code for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxTypeCodes</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the tax type of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">salesCategoryCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the sales category code of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">maxAllowedQuantity</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the maximum sales quantity allowed for any item under this hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ubcRequired</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Indicates whether UBC is required for items sold at hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">nonReturnable</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Indicates whether an item sold by hierarchy is returnable.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Defines the date when the audit information was last modified.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON response format</h4><pre xml:space="preserve">[
+  {
+    "hierarchyCode": "sample string 1",
+    "hierarchyLevelCode": "sample string 2",
+    "description": "sample string 3",
+    "culture": "sample string 4",
+    "parentHierarchyCode": "sample string 5",
+    "externalId": "sample string 6",
+    "taxClassCode": "sample string 7",
+    "taxTypeCodes": [
+      "sample string 1",
+      "sample string 2"
+    ],
+    "salesCategoryCode": "sample string 8",
+    "maxAllowedQuantity": 1,
+    "ubcRequired": true,
+    "nonReturnable": true,
+    "customerAuditDate": "2018-10-01T04:04:29.9852715-07:00"
+  },
+  {
+    "hierarchyCode": "sample string 1",
+    "hierarchyLevelCode": "sample string 2",
+    "description": "sample string 3",
+    "culture": "sample string 4",
+    "parentHierarchyCode": "sample string 5",
+    "externalId": "sample string 6",
+    "taxClassCode": "sample string 7",
+    "taxTypeCodes": [
+      "sample string 1",
+      "sample string 2"
+    ],
+    "salesCategoryCode": "sample string 8",
+    "maxAllowedQuantity": 1,
+    "ubcRequired": true,
+    "nonReturnable": true,
+    "customerAuditDate": "2018-10-01T04:04:29.9852715-07:00"
+  }
+]</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />GET api/v7/Hierarchies?hierarchyParentCode={hierarchyParentCode}</a></span>
+                <div class="MCDropDownBody dropDownBody">
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Request information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <h4>URI parameters</h4>
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Type</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Required</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyParentCode</span>&#160;</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy parent code.</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody">string</p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Yes</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Body parameters</h4>
+                            <p class="Body">None.</p>
+                        </div>
+                    </div>
+                    <div class="MCDropDown MCDropDown_Closed dropDown"><span class="MCDropDownHead dropDownHead"><a href="javascript:void(0)" class="MCDropDownHotSpot dropDownHotspot MCDropDownHotSpot_ MCHotSpotImage" aria-expanded="false"><img class="MCDropDown_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="16" width="16" alt="Closed" data-mc-alt2="Open" />Response information</a></span>
+                        <div class="MCDropDownBody dropDownBody">
+                            <table style="margin-left: 0;margin-right: auto;mc-table-style: url('../../../resources/tablestyles/ip-1_breaks.css');" class="TableStyle-IP-1_Breaks" cellspacing="0">
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <col class="TableStyle-IP-1_Breaks-Column-Column1" />
+                                <thead>
+                                    <tr class="TableStyle-IP-1_Breaks-Head-Header1">
+                                        <th class="TableStyle-IP-1_Breaks-HeadE-Column1-Header1">
+                                            <p class="CellHead">Name</p>
+                                        </th>
+                                        <th class="TableStyle-IP-1_Breaks-HeadD-Column1-Header1">
+                                            <p class="CellHead">Description</p>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">hierarchyLevelCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy level code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">description</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the hierarchy description.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">culture</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the culture for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">parentHierarchyCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the parent hierarchy code.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">externalId</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the external hierarchy ID.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxClassCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the tax class code for the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">taxTypeCodes</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Defines the tax type of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">salesCategoryCode</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the sales category code of the hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">maxAllowedQuantity</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Defines the maximum sales quantity allowed for any item under this hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyH-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">ubcRequired</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyG-Column1-333333">
+                                            <p class="CellBody">Indicates whether UBC is required for items sold at hierarchy.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyE-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">nonReturnable</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyD-Column1-333333">
+                                            <p class="CellBody">Indicates whether an item sold by hierarchy is returnable.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="TableStyle-IP-1_Breaks-Body-333333">
+                                        <td class="TableStyle-IP-1_Breaks-BodyB-Column1-333333">
+                                            <p class="CellBody"><span class="ProgramText">customerAuditDate</span>
+                                            </p>
+                                        </td>
+                                        <td class="TableStyle-IP-1_Breaks-BodyA-Column1-333333">
+                                            <p class="CellBody">Defines the date when the audit information was last modified.</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h4>Sample JSON response format</h4><pre xml:space="preserve">{
+ [
+  {
+    "hierarchyCode": "sample string 1",
+    "hierarchyLevelCode": "sample string 2",
+    "description": "sample string 3",
+    "culture": "sample string 4",
+    "parentHierarchyCode": "sample string 5",
+    "externalId": "sample string 6",
+    "taxClassCode": "sample string 7",
+    "taxTypeCodes": [
+      "sample string 1",
+      "sample string 2"
+    ],
+    "salesCategoryCode": "sample string 8",
+    "maxAllowedQuantity": 1,
+    "ubcRequired": true,
+    "nonReturnable": true,
+    "customerAuditDate": "2018-10-01T06:43:15.2695181-07:00"
+  },
+  {
+    "hierarchyCode": "sample string 1",
+    "hierarchyLevelCode": "sample string 2",
+    "description": "sample string 3",
+    "culture": "sample string 4",
+    "parentHierarchyCode": "sample string 5",
+    "externalId": "sample string 6",
+    "taxClassCode": "sample string 7",
+    "taxTypeCodes": [
+      "sample string 1",
+      "sample string 2"
+    ],
+    "salesCategoryCode": "sample string 8",
+    "maxAllowedQuantity": 1,
+    "ubcRequired": true,
+    "nonReturnable": true,
+    "customerAuditDate": "2018-10-01T06:43:15.2695181-07:00"
+  }
+ ]
+}</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p> <!-- This is the image for the 'Back to Top of Topic' button with an href link to the top of the page, indicated by the # sign. Notice the style class used is 'go-to-top', which is defined in the master style sheet .css file. --></p>
+        <p><a class="go-to-top" href="#" title="Back to top" alt="Back to top"><img src="../../../resources/images/backtotopchevron.svg" width="20" height="15" color="white" /></a>
+        </p>
+        <p>
+            <!-- This is the solution to include the embedded Google fonts into the HTML output. Ref. Flare online documentation. -->
+        </p>
+        <!-- This is the solution to include the embedded Google font files from the Flare source folders into the HTML output. The words below are links to the font files. They’re invisible and won’t appear on the page. Ref. Flare online documentation. -->
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-regular.ttf">Include Raleway-Regular font file when HTML output is generated</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-bold.ttf">Include Raleway-Bold font file</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-italic.ttf">Include Raleway-Italic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-bolditalic.ttf">Include Raleway-BoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-medium.ttf">Include Raleway-Medium</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-mediumitalic.ttf">Include Raleway-MediumItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-semibold.ttf">Raleway-SemiBold </a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-semibolditalic.ttf">Raleway-SemiBoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-light.ttf">Raleway-Light</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/raleway/raleway-lightitalic.ttf">Raleway-LightItalic </a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-regular.ttf">OpenSans-Regular</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-bold.ttf">OpenSans-Bold</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-italic.ttf">OpenSans-Italic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans/opensans-bolditalic.ttf">OpenSans-BoldItalic</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-bold.ttf">OpenSansCondensed-Bold</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-light.ttf">OpenSansCondensed-Light.ttf</a>
+        </p>
+        <p><a style="display: none;" href="../../../resources/fonts/open_sans_condensed/opensanscondensed-lightitalic.ttf">OpenSansCondensed-LightItalic.ttf</a>
+        </p>
+    </body>
+</html>
