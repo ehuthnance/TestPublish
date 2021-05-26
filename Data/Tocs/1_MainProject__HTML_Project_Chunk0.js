@@ -1,1 +1,0 @@
-define({'https://onlinehelp.ncr.com/Retail/Solutions/AdvancedStore/HTML/InstallSite':{i:[0],t:['Installing Advanced Store'],b:['']},'https://onlinehelp.ncr.com/Retail/Solutions/AdvancedStore/HTML/UserSite':{i:[1],t:['Using Advanced Store'],b:['']}});
