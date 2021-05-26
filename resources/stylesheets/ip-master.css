@@ -1,0 +1,2671 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/* There needs to be 1 @font-face for each font file, which is specified in the URL. A dif. font file usually exists or each font, font+weight, font+style, and font+weight+style combination, in most cases. */
+
+@font-face 
+{
+	font-family: 'Raleway';
+	src: url(../fonts/raleway/raleway-regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Raleway';
+	src: url(../fonts/raleway/raleway-bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Raleway';
+	src: url(../fonts/raleway/raleway-italic.ttf);
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face 
+{
+	font-family: 'Raleway';
+	src: url(../fonts/raleway/raleway-bolditalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face 
+{
+	font-family: 'Raleway Medium';
+	src: url(../fonts/raleway/raleway-medium.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Raleway Medium';
+	src: url(../fonts/raleway/raleway-mediumitalic.ttf);
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face 
+{
+	font-family: 'Raleway SemiBold';
+	src: url(../fonts/raleway/raleway-semibold.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Raleway SemiBold';
+	src: url(../fonts/raleway/raleway-semibolditalic.ttf);
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face 
+{
+	font-family: 'Raleway Light';
+	src: url(../fonts/raleway/raleway-light.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* saved for future use */
+
+@font-face 
+{
+	font-family: 'Raleway Light';
+	src: url(../fonts/raleway/raleway-lightitalic.ttf);
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* saved for future use */
+
+@font-face 
+{
+	font-family: 'Open Sans';
+	src: url(../fonts/open_sans/opensans-regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Open Sans';
+	src: url(../fonts/open_sans/opensans-bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Open Sans';
+	src: url(../fonts/open_sans/opensans-italic.ttf);
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face 
+{
+	font-family: 'Open Sans';
+	src: url(../fonts/open_sans/opensans-bolditalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Open Sans Condensed styles saved for future use */
+
+@font-face 
+{
+	font-family: 'Open Sans Condensed';
+	src: url(../fonts/open_sans_condensed/opensanscondensed-bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Open Sans Condensed Light';
+	src: url(../fonts/open_sans_condensed/opensanscondensed-light.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: 'Open Sans Condensed Light';
+	src: url(../fonts/open_sans_condensed/opensanscondensed-lightitalic.ttf);
+	font-weight: normal;
+	font-style: italic;
+}
+
+/* Google Fonts, @font-face Notes:
+- Embedding fonts in Flare is the recommended Flare fix for PCs that don't have the font installed locally and the font in the skin menus. (Ref. Flare online help for instructions.)
+- We don't need to call Raleway Black, because it's only used for PDF output, cover page.
+- W3Schools recommendeds using only lower case in the url path.
+- Note: We only need to specify the google fonts used in online output, not the ones for the PDF styles, because PDF fonts are embedded in the file, not called over the internet.
+- The weight and style has to be repeated above (in the @font-face rule) and below, in the style definition (in other words, it doesn't inherit - it has to match.)
+- It's better to use weight (and style ?) = normal even though that's the default. Some headings didn't display properly without specifying normal.
+- Reminder: the font files can be downloaded from the Google Fonts website.
+*/
+
+p
+{
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-size: 14pt;
+	font-weight: normal;
+	font-style: normal;
+	text-align: left;
+	margin-bottom: .80em;
+	margin-top: 0.2em;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	text-decoration: none;
+	page-break-inside: avoid;
+	line-height: normal;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+/*Begin Cover Page Tags: Cover- styles are used for the PDF title page and Cover-HTML styles are used for the Home Page for HTML output.*/
+
+p.Cover-Book_Title
+{
+	font-family: 'Raleway Black';
+	font-size: 36pt;
+	color: #ffffff;
+	margin-bottom: 10pt;
+	margin-left: 2pc;
+	margin-right: 2pc;
+	mc-next-tag: p;
+	mc-next-class: Cover-Book_Class;
+}
+
+p.Cover-Book_Class
+{
+	font-family: 'Raleway SemiBold', Arial, Helvetica, 'Sans-serif';
+	font-size: 20pt;
+	margin-bottom: 10pt;
+	color: #ffffff;
+	mc-next-tag: p;
+	mc-next-class: Cover-Release_Number;
+	margin-right: 2pc;
+	margin-left: 2pc;
+}
+
+p.Cover-Release_Number
+{
+	font-family: 'Raleway Light', Arial, Helvetica, 'Sans-serif';
+	font-size: 17pt;
+	color: #ffffff;
+	margin-bottom: 6pt;
+	margin-right: 2pc;
+	margin-left: 2pc;
+}
+
+p.Cover-Book_Number
+{
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-size: 16pt;
+	color: #333333;
+	margin-left: 0pc;
+	margin-bottom: 0pt;
+	column-break-before: always;
+	mc-next-tag: p;
+	mc-next-class: Cover-Book_Issue;
+}
+
+p.Cover-Book_Issue
+{
+	margin-left: 0pc;
+	margin-top: 0pt;
+	color: #333333;
+	font-size: 16pt;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	page-break-after: always;
+	margin-bottom: 0pt;
+}
+
+p.Cover-Legal	/* We chose 10 pt for online and 9 pt for PDF */
+{
+	font-size: 10pt;
+	margin-left: 0pc;
+	mc-next-class: Cover-Legal;
+}
+
+p.Cover-Product_ID
+{
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	font-weight: bold;
+	font-size: 18pt;
+	font-style: normal;
+	color: #000000;
+	text-align: left;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	margin-top: 0pt;
+	margin-bottom: 6pt;
+	text-indent: 0px;
+	letter-spacing: 0em;
+	mc-hyphenate: never;
+	line-height: normal;
+	text-decoration: none;
+}
+
+p.Cover-HTML_Book_Title
+{
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	font-size: 32pt;
+	color: #54b948;
+	text-align: center;
+	margin-bottom: 4pt;
+	mc-next-tag: p;
+	mc-next-class: Cover-HTML_Book_Class;
+}
+
+p.Cover-HTML_Book_Class
+{
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	font-size: 22pt;
+	color: #54b948;
+	text-align: center;
+	margin-bottom: 6pt;
+	mc-next-tag: p;
+	mc-next-class: Cover-HTML_Release_Number;
+}
+
+p.Cover-HTML_Release_Number
+{
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	margin-bottom: 4pt;
+	font-size: 16pt;
+	color: #333333;
+	text-align: center;
+	mc-next-tag: p;
+	mc-next-class: Cover-HTML_Book_Number;
+}
+
+p.Cover-HTML_Book_Number
+{
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	font-size: 12pt;
+	font-style: italic;
+	color: #333333;
+	text-align: center;
+}
+
+/*Begin Heading Tags*/
+
+h1
+{
+	font-family: 'Raleway Medium', Arial, Helvetica, 'Sans-serif';
+	font-size: 20pt;
+	font-weight: normal;
+	margin-top: 18pt;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	margin-bottom: 12pt;
+	mc-heading-level: 2;
+	line-height: normal;
+	page-break-before: avoid;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+h2
+{
+	font-family: 'Raleway SemiBold', Arial, Helvetica, 'Sans-serif';
+	font-size: 16pt;
+	font-weight: normal;
+	margin-top: 12pt;
+	margin-bottom: 12pt;
+	mc-heading-level: 3;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+h3
+{
+	font-family: 'Raleway SemiBold', Arial, Helvetica, 'Sans-serif';
+	font-size: 14pt;
+	font-weight: normal;
+	margin-top: 14pt;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	margin-bottom: 12pt;
+	mc-heading-level: 4;
+	line-height: normal;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+h4
+{
+	/* We had to change this heading from Raleway Medium to Raleway so it will support bold italic. There was no Raleway Medium font file for bold+italic */
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: italic;
+	line-height: normal;
+	margin-bottom: 0pt;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	margin-top: 12pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+h5	/* We had to change this heading from Raleway Medium to Raleway so it will support bold. There was no Raleway Medium font file for bold. */
+{
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 0pt;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	margin-top: 12pt;
+	line-height: normal;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+h1.H1Centered
+{
+	font-size: 20pt;
+	font-weight: normal;
+	text-align: center;
+	mc-next-tag: p;
+	mc-next-class: Art-Parts;
+}
+
+h1.ChapterTitle
+{
+	/*font name is inherited from H1*/
+	font-size: 18pt;
+	font-weight: bold;
+	margin-top: 0pt;
+	margin-bottom: 22pt;
+	mc-heading-level: 1;
+	mc-auto-number-position: inside-head;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+h1.ChapterTitleNoChapNum
+{
+	font-size: 18pt;
+	font-weight: bold;
+	margin-top: 0pt;
+	margin-bottom: 22pt;
+	mc-heading-level: 1;
+	/*	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px; */
+	/*not needed bc there's no chapter number??*/
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+h1.AppendixTitle
+{
+	font-size: 18pt;
+	font-weight: bold;
+	margin-top: 0pt;
+	margin-bottom: 22pt;
+	mc-heading-level: 1;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+h1.AppendixTitleNoAppNum
+{
+	font-size: 18pt;
+	font-weight: bold;
+	margin-top: 0pt;
+	margin-bottom: 22pt;
+	mc-heading-level: 1;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.NoTOC_H1
+{
+	font-family: 'Raleway Medium', Arial, Helvetica, 'Sans-serif';
+	font-size: 20pt;
+	margin-top: 22pt;
+	margin-bottom: 6pt;
+	page-break-before: avoid;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.NoTOC_H2
+{
+	font-family: 'Raleway SemiBold', Arial, Helvetica, 'Sans-serif';
+	font-size: 16pt;
+	margin-top: 18pt;
+	margin-bottom: 6pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.NoTOC_H3
+{
+	font-family: 'Raleway SemiBold', Arial, Helvetica, 'Sans-serif';
+	font-size: 14pt;
+	margin-top: 12pt;
+	margin-bottom: 6pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.NoTOC_H4
+{
+	/* Changed from Raleway Medium to Raleway for Google Fonts fix due to no Raleway Medium bold italics font file exists.*/
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	font-size: 12pt;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 12pt;
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	mc-heading-level: 0;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+/*Begin TOC Tags*/
+
+p.Table_of_Contents_Head
+{
+	font-family: 'Raleway Medium', Arial, Helvetica, 'Sans-serif';
+	font-weight: normal;
+	font-size: 18pt;
+	margin-bottom: 16pt;
+	margin-top: 4pc;
+	page-break-before: always;
+}
+
+p.TOC1
+{
+	font-size: 13pt;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	margin-left: 2pc;
+	mc-heading-level: 1;
+	mc-leader-format: 'None';
+	mc-pagenum-display: none;
+}
+
+p.TOC2
+{
+	font-size: 13pt;
+	margin-left: 3.5pc;
+	margin-bottom: 3pt;
+	letter-spacing: 0em;
+	mc-heading-level: 2;
+	mc-leader-format: '.';
+}
+
+p.TOC3
+{
+	font-size: 13pt;
+	margin-left: 5pc;
+	margin-bottom: 3pt;
+	mc-heading-level: 3;
+}
+
+p.TOC4
+{
+	font-size: 13pt;
+	margin-left: 6.5pc;
+	margin-bottom: 3pt;
+	mc-heading-level: 4;
+}
+
+p.TOC5
+{
+	font-size: 13pt;
+	margin-left: 8pc;
+	margin-bottom: 3pt;
+	mc-heading-level: 5;
+}
+
+span.mc-variable
+{
+	
+}
+
+p.HeaderRightSide	/* used in PDF only*/
+{
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-size: 10pt;
+	font-style: italic;
+	text-align: right;
+	margin-left: 0pc;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+p.HeaderLeftSide	/* used in PDF only*/
+{
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-size: 10pt;
+	font-style: italic;
+	text-align: left;
+	margin-left: 0pc;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+/*Begin Art Tags*/
+
+p.Art
+{
+	margin-bottom: 13pt;
+	margin-top: 13pt;
+	page-break-before: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Art1
+{
+	margin-left: 1.5pc;
+	margin-top: 13pt;
+	margin-bottom: 13pt;
+	page-break-before: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Art2
+{
+	margin-left: 3.0pc;
+	margin-top: 13pt;
+	margin-bottom: 13pt;
+	page-break-before: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.ArtWide
+{
+	margin-left: 0pc;
+	margin-top: 6pt;
+	margin-bottom: 0pt;
+	height: auto;
+	page-break-before: avoid;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Art-Parts
+{
+	text-align: center;
+	margin-top: 13pt;
+	margin-bottom: 13pt;
+	page-break-before: avoid;
+	mc-next-tag: h1;
+	mc-next-class: H1Centered;
+}
+
+p.FigureTitle
+{
+	font-family: Arial, Helvetica, 'Sans-serif';
+	font-size: 9pt;
+	font-weight: normal;
+	font-style: italic;
+	color: #000000;
+	text-align: center;
+	text-decoration: underline;
+	letter-spacing: 0em;
+	text-indent: 0px;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	line-height: normal;
+	mc-hyphenate: never;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+/* Begin standard paragraph tags */
+
+p.Action
+{
+	margin-left: 9.5pc;
+	mc-auto-number-format: 'Action: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: BoldNarrow;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Body
+{
+	
+}
+
+p.Body1
+{
+	margin-left: 1.5pc;
+}
+
+p.Body2
+{
+	margin-left: 3pc;
+}
+
+p.GlosItem
+{
+	text-align: left;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 14pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: normal;
+	text-decoration: none;
+	mc-next-tag: p;
+	mc-next-class: GlosText;
+}
+
+p.MessageDef
+{
+	margin-left: 1.5pc;
+	mc-auto-number-format: 'Meaning: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: BoldNarrow;
+	mc-next-tag: p;
+	mc-next-class: Action;
+}
+
+p.MessageText
+{
+	font-family: 'Courier New', 'Courier', 'Mono';
+	font-weight: bold;
+	mc-next-tag: p;
+	mc-next-class: MessageDef;
+}
+
+p.ProgramText	/* use when you have more than 1 paragraph lines of program text. When there's only 1 line of text, use body text with span.ProgramText instead.*/
+{
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Courier New', 'Courier', 'Mono';
+	orphans: 5;
+	mc-next-tag: p;
+	mc-next-class: ProgramText;
+}
+
+p.ProgramText1
+{
+	margin-left: 1.5pc;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Courier New', 'Courier', 'Mono';
+	orphans: 5;
+	mc-next-tag: p;
+	mc-next-class: ProgramText1;
+}
+
+/* Begin list item tags */
+
+p.BulletItem
+{
+	margin-left: 1.5pc;
+	mc-auto-number-format: '•';
+	mc-auto-number-class: BulletIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 24px;
+	mc-next-tag: p;
+	mc-next-class: BulletItem;
+}
+
+span.BulletIndent
+{
+	float: left;
+	margin-left: -18pt;
+}
+
+p.BulletItem1
+{
+	margin-left: 3.0pc;
+	mc-auto-number-format: '•';
+	mc-auto-number-class: BulletIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 24px;
+	mc-next-class: BulletItem1;
+}
+
+p.BulletItem2
+{
+	margin-left: 4.5pc;
+	mc-auto-number-format: '•';
+	mc-auto-number-class: BulletIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 24px;
+	mc-next-class: BulletItem2;
+}
+
+p.LetteredItem
+{
+	margin-left: 1.5pc;
+	mc-auto-number-format: 'A:{A+1}.';
+	mc-auto-number-class: LetterIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 1.5pc;
+	mc-next-tag: p;
+	mc-next-class: LetteredItem;
+}
+
+span.LetterIndent
+{
+	float: left;
+	margin-left: -18pt;
+}
+
+p.LetteredItem-First
+{
+	margin-left: 1.5pc;
+	mc-auto-number-format: 'A:{A=1}.';
+	mc-auto-number-class: LetterIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 1.5pc;
+	mc-next-tag: p;
+	mc-next-class: LetteredItem;
+}
+
+p.LetteredItem1-First
+{
+	margin-left: 3pc;
+	mc-auto-number-format: 'a:{a=1}.';
+	mc-auto-number-class: LetterIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 1.5pc;
+	mc-next-tag: p;
+	mc-next-class: LetteredItem1;
+}
+
+p.LetteredItem1
+{
+	margin-left: 3pc;
+	mc-auto-number-format: 'a:{a+}.';
+	mc-auto-number-class: LetterIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 24px;
+	mc-next-tag: p;
+	mc-next-class: LetteredItem1;
+}
+
+p.NumberedItem
+{
+	margin-left: 1.5pc;
+	mc-auto-number-class: NumberIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 1.5pc;
+	mc-next-tag: p;
+	mc-next-class: NumberedItem;
+	mc-auto-number-format: 'N:{n+1}.';
+}
+
+span.NumberIndent
+{
+	float: left;
+	margin-left: -18pt;
+}
+
+p.NumberedItem-First
+{
+	margin-left: 1.5pc;
+	mc-auto-number-format: 'N:{n=1}.';
+	mc-auto-number-class: NumberIndent;
+	mc-auto-number-position: inside-head;
+	line-height: normal;
+	mc-auto-number-offset: 1.5pc;
+	mc-next-tag: p;
+	mc-next-class: NumberedItem;
+}
+
+p.NumberedItem1-First
+{
+	margin-left: 3pc;
+	mc-auto-number-format: 'N:{n=1}.';
+	mc-auto-number-class: NumberIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 1.5pc;
+	mc-next-tag: p;
+	mc-next-class: NumberedItem;
+}
+
+p.NumberedItem1
+{
+	margin-left: 3pc;
+	mc-auto-number-format: 'N:{n+1}.';
+	mc-auto-number-class: NumberIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 1.5pc;
+	mc-next-tag: p;
+	mc-next-class: NumberedItem;
+}
+
+/* Begin Note tags */
+
+p.Caution
+{
+	background-image: url('../images/caution.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Caution:  ';
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Caution1
+{
+	margin-left: 1.5pc;
+	background-image: url('../images/caution.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Caution:  ';
+	mc-next-tag: p;
+	mc-next-class: Body1;
+}
+
+p.Caution2
+{
+	margin-left: 3.0pc;
+	background-image: url('../images/caution.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Caution:  ';
+	mc-next-tag: p;
+	mc-next-class: Body2;
+}
+
+p.Example
+{
+	mc-hyphenate: never;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Example:  ';
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Example1
+{
+	margin-left: 1.5pc;
+	margin-bottom: 6pt;
+	mc-hyphenate: never;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Example:  ';
+	mc-next-tag: p;
+	mc-next-class: Body1;
+}
+
+p.Example2
+{
+	margin-left: 3pc;
+	margin-bottom: 6pt;
+	mc-hyphenate: never;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Example:  ';
+	mc-next-tag: p;
+	mc-next-class: Body2;
+}
+
+p.Important
+{
+	mc-hyphenate: never;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}! Important:  ';
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Important1
+{
+	margin-left: 1.5pc;
+	margin-bottom: 6pt;
+	mc-hyphenate: never;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}! Important:  ';
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Important2
+{
+	margin-left: 3pc;
+	margin-bottom: 6pt;
+	mc-hyphenate: never;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}! Important:  ';
+	mc-next-tag: p;
+	mc-next-class: Body2;
+}
+
+p.Note
+{
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Note:  ';
+	mc-next-tag: p;
+	mc-next-class: Body;
+	background-image: url('../images/note.png');
+}
+
+p.Note1
+{
+	margin-left: 1.5pc;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Note:  ';
+	mc-next-tag: p;
+	mc-next-class: Body1;
+	background-image: url('../images/note.png');
+}
+
+p.Note2
+{
+	margin-left: 3pc;
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Note:  ';
+	mc-next-tag: p;
+	mc-next-class: Body2;
+	background-image: url('../images/note.png');
+}
+
+p.Tip
+{
+	background-image: url('../images/tip.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Tip:  ';
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Tip1
+{
+	margin-left: 1.5pc;
+	background-image: url('../images/tip.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Tip:  ';
+	mc-next-tag: p;
+	mc-next-class: Body1;
+}
+
+p.Tip2
+{
+	margin-left: 3pc;
+	background-image: url('../images/tip.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}Tip:  ';
+	mc-next-tag: p;
+	mc-next-class: Body2;
+}
+
+p.Warning
+{
+	font-weight: bold;
+	background-image: url('../images/warning.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}{color red}Warning: ';
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+p.Warning1
+{
+	font-weight: bold;
+	margin-left: 1.5pc;
+	background-image: url('../images/warning.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}{color red}Warning: ';
+	mc-next-tag: p;
+	mc-next-class: Body1;
+}
+
+p.Warning2
+{
+	font-weight: bold;
+	margin-left: 3pc;
+	background-image: url('../images/warning.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-format: '{b}{color red}Warning: ';
+	mc-next-tag: p;
+	mc-next-class: Body2;
+}
+
+p.Warning-Symbol
+{
+	font-weight: bold;
+	background-image: url('../images/warning.png');
+	background-repeat: no-repeat;
+	background-position: 0% 0%;
+	padding-left: 40px;
+	mc-next-tag: p;
+	mc-next-class: Body;
+}
+
+/* Begin table item tags */
+
+th	/*creates a fixed header on all tables*/
+{
+	position: -webkit-sticky;
+	/*required by Safari*/
+	position: sticky;
+	top: -1px;
+	/* The negative number eliminates the tiny gap that appeared at the top of the screen when set to 0 */
+	z-index: 1;
+	/* not needed until we add a fixed first column; header needs to be on top of column */
+}
+
+tr:hover td	/* creates a grey shade on a table row when the mouse goes over it */
+{
+	background: #F4F4F5;
+}
+
+p.CellBody
+{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 0pc;
+	font-size: 12pt;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.CellBody1
+{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 1.5pc;
+	font-size: 12pt;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.CellBody2
+{
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 3pc;
+	font-size: 12pt;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.CellHead
+{
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	font-size: 11pt;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/*Workaround: Added "mc-auto-number-class=span.Cell-BulletIndent" in order to simulate a hanging indent. Normally "outside-head" is used to create a hanging indent. However, there's a MadCap bug using "outside-head" that causes wide columns when used with AutoFit content tables. The bug also causes bullet and number lists to not wrap with the side menu in HTML output*/
+
+p.Cell-BulletItem
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 12pt;
+	mc-auto-number-format: '•';
+	mc-auto-number-class: Cell-BulletIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 24px;
+	margin-left: 1.5pc;
+	mc-next-tag: p;
+	mc-next-class: Cell-BulletItem;
+}
+
+/*The span.Cell-BulletIndent syle works in conjunction with p.Cell-BulletItem. The -24px in the span.Cell-BulletIndent needs to match the offset in p.Cell-BulletItem*/
+
+span.Cell-BulletIndent
+{
+	float: left;
+	margin-left: -24px;
+}
+
+p.Cell-BulletItem1
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 12pt;
+	mc-auto-number-format: '•';
+	mc-auto-number-class: Cell-BulletIndent;
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 24px;
+	margin-left: 3pc;
+	mc-next-tag: p;
+	mc-next-class: Cell-BulletItem1;
+}
+
+p.Cell-Caution
+{
+	margin-left: 0pc;
+	font-size: 12pt;
+	mc-auto-number-format: 'Caution: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: Bold;
+	text-indent: 0px;
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.Cell-Example
+{
+	margin-left: 0pc;
+	font-size: 12pt;
+	mc-auto-number-format: 'Example: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: Bold;
+	text-indent: 0px;
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.Cell-Example1
+{
+	margin-left: 1.5pc;
+	font-size: 12pt;
+	mc-auto-number-format: 'Example: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: Bold;
+	text-indent: 0px;
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.Cell-Important
+{
+	margin-left: 0pc;
+	font-size: 12pt;
+	mc-auto-number-format: 'Important: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: Bold;
+	text-indent: 0px;
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.Cell-Note
+{
+	margin-left: 0pc;
+	font-size: 12pt;
+	mc-auto-number-format: 'Note: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: Bold;
+	text-indent: 0px;
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.Cell-Note1
+{
+	margin-left: 1.5pc;
+	font-size: 12pt;
+	mc-auto-number-format: 'Note: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: Bold;
+	text-indent: 0px;
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.Cell-NumberedItem-First
+{
+	margin-left: 1.5pc;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 12pt;
+	mc-auto-number-class: Cell-NumberIndent;
+	mc-auto-number-format: 'N:{n=1}.';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 24px;
+	mc-next-tag: p;
+	mc-next-class: Cell-NumberedItem;
+}
+
+span.Cell-NumberIndent
+{
+	float: left;
+	margin-left: -18pt;
+}
+
+p.Cell-NumberedItem
+{
+	margin-left: 1.5pc;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 12pt;
+	mc-auto-number-class: Cell-NumberIndent;
+	mc-auto-number-format: 'N:{n+}. ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 24px;
+	mc-next-tag: p;
+	mc-next-class: Cell-NumberedItem;
+}
+
+p.Cell-ProgramText
+{
+	font-family: 'Courier New', 'Courier', 'Mono';
+	margin-left: 0pc;
+}
+
+p.Cell-ProgramText1
+{
+	font-family: 'Courier New', 'Courier', 'Mono';
+	margin-left: 1.5pc;
+}
+
+p.Cell-Tip
+{
+	margin-left: 0pc;
+	font-size: 12pt;
+	mc-auto-number-format: 'Tip: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: Bold;
+	text-indent: 0px;
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.Cell-Warning
+{
+	margin-left: 0pc;
+	font-size: 12pt;
+	mc-auto-number-format: '{color red} Warning: ';
+	mc-auto-number-position: inside-head;
+	mc-auto-number-offset: 0px;
+	mc-auto-number-class: Bold;
+	text-indent: 0px;
+	mc-next-tag: p;
+	mc-next-class: CellBody;
+}
+
+p.TableItem
+{
+	text-align: left;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 12pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: normal;
+	text-decoration: none;
+	page-break-after: avoid;
+	mc-next-tag: p;
+	mc-next-class: TableParagraph;
+}
+
+p.TableParagraph
+{
+	text-align: left;
+	margin-left: 1.5pc;
+	margin-right: 0pc;
+	margin-top: 0pt;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-size: 12pt;
+	font-weight: normal;
+	font-style: normal;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: normal;
+	text-decoration: none;
+	page-break-inside: avoid;
+	mc-next-tag: p;
+	mc-next-class: TableItem;
+}
+
+p.Table_Caption
+{
+	text-align: center;
+	margin-left: 0pc;
+	margin-right: 0pc;
+	margin-top: 0pt;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: normal;
+	text-decoration: none;
+}
+
+p.Table_Title
+{
+	text-align: center;
+	margin-left: 10pc;
+	margin-right: 0pc;
+	margin-top: 0pt;
+	margin-bottom: 12pt;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14pt;
+	letter-spacing: 0em;
+	color: #000000;
+	mc-hyphenate: never;
+	text-indent: 0px;
+	line-height: normal;
+	text-decoration: none;
+}
+
+/* The "pre" style is used for creating a scrolling area for long samples of code (e.g. in API documentation) */
+
+pre
+{
+	overflow: auto;
+	width: 700px;
+	min-height: 80px;
+	max-height: 300px;
+	font-family: 'Courier New', 'Courier', 'Mono';
+	white-space: pre-wrap;
+	background-color: #ebebeb;
+	/* CSS3 browsers  */
+	word-wrap: break-word;
+	/* IE 5.5+ and up */
+	/* overflow-x: auto; */
+	/* Firefox 2 only */
+	/* width: 99%; */
+	/* only if needed */
+}
+
+pre.table
+{
+	overflow: auto;
+	width: 300px;
+	min-height: 30px;
+	max-height: 300px;
+	font-family: 'Courier New', 'Courier', 'Mono';
+	white-space: pre-wrap;
+	background-color: #ebebeb;
+	/* CSS3 browsers  */
+	word-wrap: break-word;
+	/* IE 5.5+ and up */
+	/* overflow-x: auto; */
+	/* Firefox 2 only */
+	/* width: 99%; */
+	/* only if needed */
+}
+
+/* Begin Special Link tags */
+
+MadCap|dropDown
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	mc-closed-image: url('../images/dropdownclosedarrow.png');
+	mc-open-image: url('../images/dropdownopenarrow.png');
+}
+
+MadCap|dropDownBody
+{
+	border-bottom: solid 1px #54b948;
+}
+
+MadCap|dropDownBody.HasSecondLevel
+{
+	border-bottom: 0;
+}
+
+MadCap|dropDownHotspot
+{
+	color: #54b948;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	color: #31A9E0;
+}
+
+MadCap|dropDown.SecondLevel
+{
+	margin-left: 10px;
+	mc-closed-image: url('../images/dropdownclosedsecondlevel.png');
+	mc-open-image: url('../images/dropdownopensecondlevel.png');
+}
+
+/*Underlines the Site Map active links only*/
+
+li.tree-node-leaf
+{
+	text-decoration: underline;
+}
+
+/* ******************************************************************* */
+/* Begin Character Styles (span) */
+
+span.NCR
+{
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	color: #54b948;
+}
+
+span.ChapterNumber
+{
+	font-family: 'Raleway', Arial, Helvetica, 'Sans-serif';
+	font-weight: normal;
+	font-style: italic;
+	font-size: 22pt;
+	letter-spacing: 0em;
+	color: #000000;
+	line-height: 24pt;
+	text-decoration: none;
+}
+
+span.BoldNarrow
+{
+	font-family: 'Arial Narrow', 'Sans-serif';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 11pt;
+	letter-spacing: 0em;
+	/*color: #000000;*/
+	line-height: 13pt;
+	text-decoration: none;
+}
+
+span.Bold
+{
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-weight: bold;
+	/*letter-spacing: 0em;
+	/*color: #000000;*/
+	/*line-height: 13pt;*/
+	/*text-decoration: none;*/
+}
+
+span.Italics
+{
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-style: italic;
+	text-decoration: none;
+}
+
+span.ProgramText
+{
+	font-family: 'Courier New', 'Courier', 'Mono';
+	/* font-size: 13pt; */
+}
+
+span.White
+{
+	font-family: 'Courier New', 'Courier', 'Mono';
+	font-weight: normal;
+	font-size: 11pt;
+	letter-spacing: 0em;
+	color: #ffffff;
+	line-height: 13pt;
+	text-decoration: none;
+}
+
+span.HighLight
+{
+	letter-spacing: 0em;
+	background-color: #ffff00;
+	text-decoration: none;
+}
+
+span.Bold-Red
+{
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: 0em;
+	color: #ff0000;
+	line-height: normal;
+	text-decoration: none;
+}
+
+span.Bold-Blue
+{
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-weight: bold;
+	font-style: normal;
+	letter-spacing: 0em;
+	line-height: normal;
+	text-decoration: none;
+	color: #0000ff;
+}
+
+/* other styles */
+
+div.Indent
+{
+	margin-left: 18pt;
+}
+
+div.sideContent
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
+}
+
+a:link
+{
+	text-decoration: none;
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	color: #54b94b;
+	margin-top: 3px;
+}
+
+a:hover
+{
+	color: #1e90ff;
+}
+
+a.go-to-top	/* The go-to-top styles are used on the Master Pages for the back-to-top arrow. */
+{
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	padding: 0.6em;
+	background-color: #54b94b;
+	color: #000000;
+	display: none;
+	/* displayed using script */
+	opacity: 0.75;
+}
+
+a.go-to-top:hover,
+a.go-to-top:focus
+{
+	background-color: #54b94b;
+	text-decoration: none;
+	opacity: 1;
+}
+
+MadCap|xref:hover
+{
+	color: #000000;
+}
+
+MadCap|xref
+{
+	text-decoration: none;
+	color: #54b94b;
+	mc-format: '{i}{paratext}{/i}{default}';
+}
+
+MadCap|xref.IP1
+{
+	text-decoration: none;
+	color: #54b94b;
+	mc-format: '{i}{paratext}{/i}{default}';
+}
+
+MadCap|xref.IP2
+{
+	text-decoration: none;
+	color: #54b94b;
+	mc-format: '{i}{paratext}{/i}{default}';
+}
+
+MadCap|xref.IP3-NoPDFLink	/*Use this cross-reference style for links between books that are in the same HTML project but are in different books in PDF output. It will produce a live link in the HTML output, but no link in the PDF output.*/
+{
+	text-decoration: none;
+	color: #54b94b;
+	mc-format: '{i}{paratext}{/i}{default}';
+	mc-exclude-action: 'unbind';
+	mc-conditions: 'default.ScreenOnly';
+}
+
+MadCap|xref.IP1:hover
+{
+	color: #1e90ff;
+}
+
+MadCap|breadcrumbsProxy
+{
+	font-family: 'Open Sans', Arial, Helvetica, 'Sans-serif';
+	font-style: italic;
+	font-size: 9pt;
+	color: #696969;
+	mc-breadcrumbs-prefix: '';
+	mc-breadcrumbs-count: 5;
+}
+
+table
+{
+	table-layout: fixed;
+}
+
+tr
+{
+	page-break-inside: avoid;
+}
+
+html
+{
+	/*	margin-left: 10px;*/
+}
+
+img
+{
+	border-top-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	height: auto;
+	margin-left: 0px;
+	max-width: 100%;
+}
+
+img.Art
+{
+	width: 36pc;
+}
+
+img.Art1
+{
+	width: 34.5pc;
+}
+
+img.Art2
+{
+	width: 33pc;
+}
+
+img.img5pc
+{
+	width: 5pc;
+}
+
+img.img8pc
+{
+	width: 8pc;
+}
+
+img.img12pc
+{
+	width: 12pc;
+}
+
+img.img16pc
+{
+	width: 16pc;
+}
+
+img.img20pc
+{
+	width: 20pc;
+}
+
+img.img24pc
+{
+	width: 24pc;
+}
+
+img.img28pc
+{
+	width: 28pc;
+}
+
+img.img36pc
+{
+	width: 36pc;
+}
+
+img.ArtWide
+{
+	width: 45pc;
+}
+
+img.ArtLarge
+{
+	width: 75pc;
+}
+
+span.SearchHighlight
+{
+	background-color: #ffff00;
+}
+
+span.SearchHighlight1
+{
+	background-color: #ffff00;
+}
+
+span.SearchHighlight2
+{
+	background-color: #7fffd4;
+}
+
+span.SearchHighlight3
+{
+	background-color: #7fff00;
+}
+
+span.SearchHighlight4
+{
+	background-color: #ff69b4;
+}
+
+div.HomePage-HeroImage	/*This is the Hero/Banner on the Home Page - To replace the banner image with your own, change background-image property*/
+{
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	padding-bottom: 150px;
+	/*padding-top: 150px;*/
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	background-image: url('../images/project/homepagebanner.png');
+	background-position: center;
+	/*image size should be a ratio of 1600 by 500*/
+}
+
+div.HomePageGrid	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.HomePageGrid::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.HomePageGrid::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.HomePageGrid > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+div.HomePageGrid > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.HomePageGrid > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+MadCap|indexProxy
+{
+	mc-output-support: all;
+}
+
+/* *************************************************************************************** */
+/* This starts the section for PDF print output styles.  Notice these styles are indented. */
+
+@media print
+{
+	p
+	{
+		font-family: 'Palatino Linotype';
+		font-size: 11pt;
+	}
+
+	/*Begin Heading Tags*/
+
+	h1
+	{
+		margin-top: 22pt;
+		margin-bottom: 6pt;
+		letter-spacing: 0em;
+		line-height: 22pt;
+		mc-hyphenate: never;
+		mc-heading-level: 2;
+	}
+
+	h2
+	{
+		text-align: left;
+		margin-left: 0pc;
+		margin-right: 0pc;
+		margin-top: 18pt;
+		margin-bottom: 6pt;
+		letter-spacing: 0em;
+		line-height: 18pt;
+	}
+
+	h3
+	{
+		text-align: left;
+		margin-left: 8pc;
+		margin-bottom: 6pt;
+		letter-spacing: 0em;
+		line-height: 16pt;
+	}
+
+	h4
+	{
+		text-align: left;
+		margin-left: 8pc;
+		letter-spacing: 0em;
+		line-height: 15pt;
+		mc-heading-level: 0;
+	}
+
+	h5
+	{
+		text-align: left;
+		text-indent: 0px;
+		margin-left: 8pc;
+		letter-spacing: 0em;
+		line-height: 11pt;
+		mc-heading-level: 0;
+	}
+
+	h1.H1Centered
+	{
+		text-indent: 0pc;
+		margin-top: 12pt;
+		margin-bottom: 6pt;
+	}
+
+	h1.ChapterTitle
+	{
+		font-size: 24pt;
+		text-indent: -7.7pc;
+		margin-left: 8pc;
+		margin-bottom: 60pt;
+		mc-auto-number-format: 'Chapter {chapnum}:  ';
+		mc-auto-number-offset: 0px;
+		mc-auto-number-class: ChapterNumber;
+	}
+
+	h1.ChapterTitleNoChapNum
+	{
+		font-size: 24pt;
+		margin-bottom: 60pt;
+	}
+
+	h1.AppendixTitle
+	{
+		font-size: 24pt;
+		mc-heading-level: 1;
+		mc-auto-number-format: 'Appendix {chapnum}:  ';
+		mc-auto-number-class: ChapterNumber;
+		margin-left: 8.5pc;
+		text-indent: -8.5pc;
+		margin-bottom: 60pt;
+	}
+
+	h1.AppendixTitleNoAppNum
+	{
+		font-size: 24pt;
+		mc-heading-level: 1;
+		margin-bottom: 60pt;
+	}
+
+	p.NoTOC_H1
+	{
+		margin-left: 0pc;
+	}
+
+	p.NoTOC_H2
+	{
+		margin-left: 0pc;
+	}
+
+	p.NoTOC_H3
+	{
+		margin-left: 8pc;
+	}
+
+	p.NoTOC_H4
+	{
+		margin-left: 8pc;
+		margin-bottom: 0pt;
+	}
+
+	/*Begin TOC Tags*/
+
+	p.Table_of_Contents_Head
+	{
+		text-align: left;
+		margin-left: 0pc;
+		margin-right: 0pc;
+		margin-bottom: 16pt;
+		font-size: 20pt;
+		letter-spacing: 0em;
+		/*color: #000000;*/
+		text-indent: 0px;
+		line-height: 24pt;
+		/*text-decoration: none;*/
+		margin-left: 8pc;
+		margin-top: 4pc;
+	}
+
+	p.TOC1
+	{
+		mc-leader-format: 'None';
+		mc-pagenum-display: none;
+		text-align: left;
+		margin-left: 0pc;
+		margin-left: 8pc;
+		margin-right: 0pc;
+		margin-top: 12pt;
+		margin-bottom: 3pt;
+		/*
+		color: #000000;*/
+		font-weight: bold;
+		font-style: italic;
+		font-size: 13pt;
+		letter-spacing: 0em;
+		mc-hyphenate: never;
+		text-indent: 0px;
+		line-height: 13pt;
+		text-decoration: underline;
+		page-break-after: avoid;
+	}
+
+	p.TOC2
+	{
+		text-align: left;
+		margin-left: 1.5pc;
+		margin-left: 9pc;
+		margin-right: 0pc;
+		margin-top: 0pt;
+		margin-bottom: 3pt;
+		/*
+		font-weight: normal;
+		font-style: normal;
+		
+		color: #000000;*/
+		letter-spacing: 0em;
+		mc-hyphenate: never;
+		text-indent: 0px;
+		line-height: 13pt;
+		/*text-decoration: none;*/
+		mc-leader-format: '.';
+	}
+
+	p.TOC3
+	{
+		text-align: left;
+		margin-left: 3.0pc;
+		margin-left: 10pc;
+		margin-right: 0pc;
+		margin-top: 0pt;
+		margin-bottom: 3pt;
+		/*
+		font-weight: normal;
+		font-style: normal;
+		color: #000000;*/
+		letter-spacing: 0em;
+		mc-hyphenate: never;
+		text-indent: 0px;
+		line-height: 13pt;
+		/*text-decoration: none;*/
+	}
+
+	p.TOC4
+	{
+		margin-left: 11pc;
+		margin-bottom: 3pt;
+		margin-top: 0pt;
+	}
+
+	p.TOC5
+	{
+		margin-left: 12pc;
+		mc-heading-level: 0;
+	}
+
+	/*Begin Art Tags*/
+
+	p.Art
+	{
+		margin-left: 8pc;
+		font-size: 11pt;
+	}
+
+	p.Art1
+	{
+		margin-left: 9.5pc;
+		font-size: 11pt;
+	}
+
+	p.Art2
+	{
+		margin-left: 11pc;
+		font-size: 11pt;
+	}
+
+	p.ArtWide
+	{
+		margin-left: 0pc;
+		text-align: right;
+		font-size: 11pt;
+	}
+
+	p.Art-Parts
+	{
+		margin-left: 0pc;
+		page-break-before: avoid;
+		text-align: center;
+		margin-bottom: 13pt;
+		margin-top: 13pt;
+		font-size: 11pt;
+	}
+
+	/* Begin standard paragraph tags */
+
+	p.Action
+	{
+		font-family: 'Palatino Linotype', 'Times New Roman', Times, serif;
+	}
+
+	p.address
+	{
+		font-style: italic;
+	}
+
+	p.Body
+	{
+		margin-left: 8pc;
+	}
+
+	p.Body1
+	{
+		margin-left: 9.5pc;
+	}
+
+	p.Body2
+	{
+		margin-left: 11pc;
+	}
+
+	p.Cover-Legal
+	{
+		margin-left: 0pc;
+		font-size: 9pt;
+	}
+
+	p.MessageDef
+	{
+		margin-left: 9.5pc;
+	}
+
+	p.ProgramText	/* use when you have more than 1 paragraph lines of program text. When there's only 1 line of text, use body text with span.ProgramText instead.*/
+	{
+		font-size: 10pt;
+		margin-left: 8pc;
+	}
+
+	p.ProgramText1
+	{
+		font-size: 10pt;
+		margin-left: 9.5pc;
+	}
+
+	/* Begin list item tags */
+
+	p.BulletItem
+	{
+		margin-left: 9.5pc;
+		mc-auto-number-class: none;
+		mc-auto-number-format: '•';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 24px;
+		mc-next-tag: p;
+		mc-next-class: BulletItem;
+	}
+
+	p.BulletItem1
+	{
+		margin-left: 11pc;
+		mc-auto-number-class: none;
+		mc-auto-number-format: '•';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 24px;
+	}
+
+	p.BulletItem2
+	{
+		margin-left: 12.5pc;
+		mc-auto-number-class: none;
+		mc-auto-number-format: '•';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 24px;
+		mc-next-class: BulletItem2;
+	}
+
+	p.LetteredItem
+	{
+		margin-left: 9.5pc;
+	}
+
+	p.LetteredItem1
+	{
+		margin-left: 11pc;
+	}
+
+	p.LetteredItem1-First
+	{
+		margin-left: 11pc;
+	}
+
+	p.LetteredItem-First
+	{
+		margin-left: 9.5pc;
+	}
+
+	p.NumberedItem
+	{
+		margin-left: 9.5pc;
+	}
+
+	p.NumberedItem-First
+	{
+		margin-left: 9.5pc;
+	}
+
+	p.NumberedItem1
+	{
+		margin-left: 11pc;
+	}
+
+	p.NumberedItem1-First
+	{
+		margin-left: 11pc;
+	}
+
+	/* Begin note tags */
+
+	p.Caution
+	{
+		margin-left: 5.5pc;
+	}
+
+	p.Caution1
+	{
+		margin-left: 7pc;
+	}
+
+	p.Caution2
+	{
+		margin-left: 8.5pc;
+	}
+
+	p.Example
+	{
+		margin-left: 8pc;
+	}
+
+	p.Example1
+	{
+		margin-left: 9.5pc;
+	}
+
+	p.Example2
+	{
+		margin-left: 11pc;
+	}
+
+	p.Important
+	{
+		margin-left: 8pc;
+	}
+
+	p.Important1
+	{
+		margin-left: 9.5pc;
+	}
+
+	p.Important2
+	{
+		margin-left: 11pc;
+	}
+
+	p.Note
+	{
+		margin-left: 5.5pc;
+	}
+
+	p.Note1
+	{
+		margin-left: 7pc;
+	}
+
+	p.Note2
+	{
+		margin-left: 8.5pc;
+	}
+
+	p.Tip
+	{
+		margin-left: 5.5pc;
+	}
+
+	p.Tip1
+	{
+		margin-left: 7pc;
+	}
+
+	p.Tip2
+	{
+		margin-left: 8.5pc;
+	}
+
+	p.Warning
+	{
+		margin-left: 5.5pc;
+	}
+
+	p.Warning1
+	{
+		margin-left: 7pc;
+	}
+
+	p.Warning2
+	{
+		margin-left: 8.5pc;
+	}
+
+	p.Warning-Symbol
+	{
+		margin-left: 5.5pc;
+	}
+
+	/* Begin table item tags */
+
+	p.CellBody
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 0pc;
+		font-size: 11pt;
+	}
+
+	p.CellBody1
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 1.5pc;
+		font-size: 11pt;
+	}
+
+	p.CellBody2
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 3pc;
+		font-size: 11pt;
+	}
+
+	p.CellHead
+	{
+		margin-left: 0pc;
+		font-family: 'Open Sans';
+		font-size: 10pt;
+	}
+
+	p.Cell-BulletItem
+	{
+		mc-auto-number-class: none;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 1.5pc;
+		font-size: 11pt;
+		mc-auto-number-format: '•';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 24px;
+		mc-next-tag: p;
+		mc-next-class: Cell-BulletItem;
+	}
+
+	p.Cell-BulletItem1
+	{
+		mc-auto-number-class: none;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		margin-left: 3pc;
+		font-size: 11pt;
+		mc-auto-number-format: '•';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 24px;
+		mc-next-tag: p;
+		mc-next-class: Cell-BulletItem;
+	}
+
+	p.Cell-Caution
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+	}
+
+	p.Cell-Example
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+	}
+
+	p.Cell-Example1
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+	}
+
+	p.Cell-Important
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+	}
+
+	p.Cell-Note
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+	}
+
+	p.Cell-Note1
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+	}
+
+	p.Cell-NumberedItem-First
+	{
+		mc-auto-number-class: none;
+		margin-left: 1.5pc;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+		mc-auto-number-format: 'N:{n=1}.';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 24px;
+		mc-next-tag: p;
+		mc-next-class: Cell-NumberedItem;
+	}
+
+	p.Cell-NumberedItem
+	{
+		mc-auto-number-class: none;
+		margin-left: 1.5pc;
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+		mc-auto-number-format: 'N:{n+}. ';
+		mc-auto-number-position: outside-head;
+		mc-auto-number-offset: 24px;
+		mc-next-tag: p;
+		mc-next-class: Cell-NumberedItem;
+	}
+
+	p.Cell-ProgramText
+	{
+		font-size: 10pt;
+		margin-left: 0pc;
+	}
+
+	p.Cell-ProgramText1
+	{
+		font-size: 10pt;
+		margin-left: 1.5pc;
+	}
+
+	p.Cell-Tip
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+	}
+
+	p.Cell-Warning
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
+		font-size: 11pt;
+	}
+
+	p.TableParagraph
+	{
+		margin-left: 9.5pc;
+		font-family: 'Palatino Linotype';
+		font-size: 11pt;
+	}
+
+	p.Table_Caption
+	{
+		font-size: 12pt;
+	}
+
+	p.TableItem
+	{
+		font-size: 11pt;
+		margin-left: 8pc;
+	}
+
+	/* ******************************************************************* */
+	/* Begin Character Styles (span), xref, and Other Misc */
+
+	span.ChapterNumber
+	{
+		font-family: 'Raleway';
+		font-size: 20pt;
+	}
+
+	span.Italics
+	{
+		font-family: 'Palatino Linotype';
+		font-size: 11pt;
+		font-style: italic;
+	}
+
+	span.ProgramText
+	{
+		font-size: 10pt;
+	}
+
+	img
+	{
+		max-width: 100%;
+	}
+
+	a:link
+	{
+		font-family: 'Palatino Linotype';
+		font-style: italic;
+		text-decoration: underline;
+	}
+
+	MadCap|tocProxy
+	{
+		border-top-width: 0px;
+		border-top-style: none;
+		padding-left: 0px;
+		padding-right: 3pc;
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{u}{i}{paratext}{/i}{/u}{color #000000} {pageref}{/color}';
+	}
+
+	MadCap|xref.IP1
+	{
+		mc-format: '{u}{i}{paratext}{/i}{/u}{default}';
+	}
+
+	MadCap|xref.IP2
+	{
+		mc-format: '{u}{i}{paratext}{/i}{/u}{color #000000} {pageref}{/color}';
+	}
+
+	MadCap|xref.IP3-NoPDFLink
+	{
+		color: #000000;
+		mc-format: '{u}{i}{paratext}{/i}{/u}{default}';
+	}
+
+	MadCap|dropDownBody
+	{
+		border-bottom: none;
+	}
+
+	MadCap|dropDownHead
+	{
+		border-bottom: none;
+		margin-left: 8pc;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		font-family: Raleway;
+		font-style: inherit;
+		font-size: inherit;
+		color: inherit;
+	}
+
+	html
+	{
+		mc-master-page: url('../masterpages/breadcrumbs.flmsp');
+	}
+}
+
+@media only screen and (max-width: 1100px)
+{
+	div.HomePageGrid > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.HomePageGrid > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.HomePageGrid > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.HomePageGrid > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
